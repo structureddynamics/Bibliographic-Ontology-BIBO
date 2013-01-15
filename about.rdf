@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+         xmlns:doap="http://usefulinc.com/ns/doap#" 
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <doap:Project rdf:about="http://bibliontology.com/about/">
+
+    <doap:name>The Bibliographic Ontology</doap:name>
+    <doap:shortname>BIBO</doap:shortname>
+
+    <doap:homepage rdf:resource="http://bibliontology.com"/>
+	<doap:mailing-list rdf:resource="http://groups.google.com/group/bibliographic-ontology-specification-group" />
+	
+    <foaf:logo rdf:resource="http://bibliontology.com/sites/bibliontology.com/files/images/bibliontology170.png" />
+	
+    <doap:created>2007-04-14</doap:created>
+
+	<doap:shortdesc>
+		The Bibliographic Ontology describe bibliographic things on the semantic Web in RDF. This ontology can be used as a citation ontology, as a document classification ontology, or simply as a way to describe any kind of document in RDF. It has been inspired by many existing document description metadata formats, and can be used as a common ground for converting other bibliographic data sources.	
+	</doap:shortdesc>
+	
+    
+    <doap:repository>
+      <doap:SVNRepository>
+        <doap:browse rdf:resource="https://github.com/structureddynamics/Bibliographic-Ontology-BIBO"/>
+        <doap:location rdf:resource="https://github.com/structureddynamics/Bibliographic-Ontology-BIBO"/>
+        <doap:location rdf:resource="https://github.com/structureddynamics/Bibliographic-Ontology-BIBO"/>
+        <doap:location rdf:resource="https://github.com/structureddynamics/Bibliographic-Ontology-BIBO"/>
+      </doap:SVNRepository>
+    </doap:repository>    
+
+	
+    <doap:release>
+      <doap:Version>
+        <doap:name>Version 1.3 of the Bibliographic Ontology</doap:name>
+        <doap:created>2009-11-04</doap:created>
+        <doap:revision>1.3</doap:revision>
+      </doap:Version>
+    </doap:release>
+
+	
+    <doap:release>
+      <doap:Version>
+        <doap:name>Version 1.2 of the Bibliographic Ontology</doap:name>
+        <doap:created>2008-11-29</doap:created>
+        <doap:revision>1.2</doap:revision>
+      </doap:Version>
+    </doap:release>
+
+	
+    <doap:release>
+      <doap:Version>
+        <doap:name>Version 1.1 of the Bibliographic Ontology</doap:name>
+        <doap:created>2008-11-28</doap:created>
+        <doap:revision>1.1</doap:revision>
+      </doap:Version>
+    </doap:release>
+
+    <doap:release>
+      <doap:Version>
+        <doap:name>First version of the Bibliographic Ontology</doap:name>
+        <doap:created>2008-06-06</doap:created>
+        <doap:revision>1.0</doap:revision>
+      </doap:Version>
+    </doap:release>
+    
+    <doap:release>
+      <doap:Version>
+        <doap:name>Publication of the working draft.</doap:name>
+        <doap:created>2007-09-30</doap:created>
+        <doap:revision>0.0</doap:revision>
+      </doap:Version>
+    </doap:release>
+
+
+    <doap:maintainer rdf:resource="http://fgiasson.com/me/" />
+    <doap:maintainer rdf:resource="http://netapps.muohio.edu/blogs/darcusb/darcusb/about/" />
+
+    <doap:documenter rdf:resource="http://fgiasson.com/me/" />
+    <doap:documenter rdf:resource="http://netapps.muohio.edu/blogs/darcusb/darcusb/about/" />
+	
+	<foaf:maker rdf:resource="http://fgiasson.com/me/" />
+    <foaf:maker rdf:resource="http://netapps.muohio.edu/blogs/darcusb/darcusb/about/" />
+
+  </doap:Project>
+
+	<foaf:Person rdf:about="http://netapps.muohio.edu/blogs/darcusb/darcusb/about/">
+		<foaf:name>Bruce DArcus</foaf:name>
+		<foaf:weblog rdf:resource="http://netapps.muohio.edu/blogs/darcusb/darcusb/" />
+	</foaf:Person>  
+  
+</rdf:RDF>
