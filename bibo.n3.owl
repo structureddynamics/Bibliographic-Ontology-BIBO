@@ -904,6 +904,14 @@ basic:issn rdf:type owl:DatatypeProperty ;
 
 
 
+###  http://prismstandard.org/namespaces/1.2/basic/issue
+
+basic:issue rdf:type owl:DatatypeProperty ;
+           
+           owl:equivalentProperty :issue .
+
+
+
 ###  http://prismstandard.org/namespaces/1.2/basic/number
 
 basic:number rdf:type owl:DatatypeProperty ;
