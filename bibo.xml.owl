@@ -1093,14 +1093,7 @@ We suggest to use this property instead of the deprecated &quot;bibo:content&quo
     <owl:DatatypeProperty rdf:about="eissn">
         <rdfs:subPropertyOf rdf:resource="identifier"/>
         <rdfs:range rdf:resource="&rdfs;Literal"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="Collection"/>
-                    <rdf:Description rdf:about="Document"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
+        <rdfs:domain rdf:resource="Collection"/>
     </owl:DatatypeProperty>
     
 
@@ -1202,14 +1195,7 @@ We suggest to use this property instead of the deprecated &quot;bibo:content&quo
     <owl:DatatypeProperty rdf:about="issn">
         <rdfs:subPropertyOf rdf:resource="identifier"/>
         <rdfs:range rdf:resource="&rdfs;Literal"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="Collection"/>
-                    <rdf:Description rdf:about="Document"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
+        <rdfs:domain rdf:resource="Collection"/>
     </owl:DatatypeProperty>
     
 
