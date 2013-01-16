@@ -894,9 +894,9 @@ We suggest to use this property instead of the deprecated &quot;bibo:content&quo
     
 
 
-    <!-- http://prismstandard.org/namespaces/1.2/basic/volumestartingPage -->
+    <!-- http://prismstandard.org/namespaces/1.2/basic/startingPage -->
 
-    <owl:DatatypeProperty rdf:about="&prism;volumestartingPage">
+    <owl:DatatypeProperty rdf:about="&prism;startingPage">
         <owl:equivalentProperty rdf:resource="pageStart"/>
     </owl:DatatypeProperty>
     
