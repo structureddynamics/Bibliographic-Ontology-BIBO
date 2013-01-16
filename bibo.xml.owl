@@ -878,6 +878,14 @@ We suggest to use this property instead of the deprecated &quot;bibo:content&quo
     
 
 
+    <!-- http://prismstandard.org/namespaces/1.2/basic/issue -->
+
+    <owl:DatatypeProperty rdf:about="&prism;issue">
+        <owl:equivalentProperty rdf:resource="issue"/>
+    </owl:DatatypeProperty>
+
+
+
     <!-- http://prismstandard.org/namespaces/1.2/basic/number -->
 
     <owl:DatatypeProperty rdf:about="&prism;number">
