@@ -1133,11 +1133,7 @@ terms:issued rdf:type owl:DatatypeProperty ;
        
        rdfs:range rdfs:Literal ;
        
-       rdfs:domain [ rdf:type owl:Class ;
-                     owl:unionOf ( :Collection
-                                   :Document
-                                 )
-                   ] .
+       rdfs:domain :Collection .
 
 
 
@@ -1235,11 +1231,7 @@ terms:issued rdf:type owl:DatatypeProperty ;
       
       rdfs:range rdfs:Literal ;
       
-      rdfs:domain [ rdf:type owl:Class ;
-                    owl:unionOf ( :Collection
-                                  :Document
-                                )
-                  ] .
+      rdfs:domain :Collection .
 
 
 
