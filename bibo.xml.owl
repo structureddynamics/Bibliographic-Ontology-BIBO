@@ -9,7 +9,6 @@
     <!ENTITY bibo "http://purl.org/ontology/bibo/" >
     <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
     <!ENTITY event "http://purl.org/NET/c4dm/event.owl#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY status "http://purl.org/ontology/bibo/status/" >
@@ -23,7 +22,6 @@
 
 <rdf:RDF xmlns="http://purl.org/ontology/bibo/"
      xml:base="http://purl.org/ontology/bibo/"
-     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:status="&bibo;status/"
@@ -33,7 +31,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:skos="http://www.w3.org/2008/05/skos#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
      xmlns:event="http://purl.org/NET/c4dm/event.owl#"
      xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:degrees="&bibo;degrees/"
@@ -72,7 +70,7 @@ sources.</terms:description>
     <owl:AnnotationProperty rdf:about="&skos;changeNote"/>
     <owl:AnnotationProperty rdf:about="&terms;identifier"/>
     <owl:AnnotationProperty rdf:about="&skos;editorialNote"/>
-    <owl:AnnotationProperty rdf:about="&owl2xml;deprecated"/>
+    <owl:AnnotationProperty rdf:about="&owl;deprecated"/>
     <owl:AnnotationProperty rdf:about="&skos;historyNote"/>
     <owl:AnnotationProperty rdf:about="&skos;note"/>
     <owl:AnnotationProperty rdf:about="&skos;scopeNote"/>
@@ -1035,7 +1033,7 @@ We suggest to use this property instead of the deprecated &quot;bibo:content&quo
         <rdfs:label xml:lang="en">content</rdfs:label>
         <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI"
             >http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
-        <owl2xml:deprecated rdf:datatype="&xsd;boolean">true</owl2xml:deprecated>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
         <rdfs:comment xml:lang="en"
             >This property is for a plain-text rendering of the content of a Document. While the plain-text content of an entire document could be described by this property.</rdfs:comment>
         <skos:historyNote xml:lang="en"
