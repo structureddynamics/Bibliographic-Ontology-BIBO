@@ -1,5 +1,4 @@
 @prefix : <http://purl.org/ontology/bibo/> .
-@prefix owl2xml: <http://www.w3.org/2006/12/owl2-xml#> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix basic: <http://prismstandard.org/namespaces/1.2/basic/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -46,7 +45,7 @@ terms:description rdf:type owl:AnnotationProperty .
 ns:term_status rdf:type owl:AnnotationProperty .
 skos:changeNote rdf:type owl:AnnotationProperty .
 skos:editorialNote rdf:type owl:AnnotationProperty .
-owl2xml:deprecated rdf:type owl:AnnotationProperty .
+owl:deprecated rdf:type owl:AnnotationProperty .
 skos:historyNote rdf:type owl:AnnotationProperty .
 skos:scopeNote rdf:type owl:AnnotationProperty .
 terms:creator rdf:type owl:AnnotationProperty .
@@ -1069,7 +1068,7 @@ terms:issued rdf:type owl:DatatypeProperty ;
          
          rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
          
-         owl2xml:deprecated "true"^^xsd:boolean ;
+         owl:deprecated "true"^^xsd:boolean ;
          
          rdfs:comment "This property is for a plain-text rendering of the content of a Document. While the plain-text content of an entire document could be described by this property."@en ;
          
