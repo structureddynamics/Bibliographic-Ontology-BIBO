@@ -927,9 +927,9 @@ basic:volume rdf:type owl:DatatypeProperty ;
 
 
 
-###  http://prismstandard.org/namespaces/1.2/basic/volumestartingPage
+###  http://prismstandard.org/namespaces/1.2/basic/startingPage
 
-basic:volumestartingPage rdf:type owl:DatatypeProperty ;
+basic:startingPage rdf:type owl:DatatypeProperty ;
                          
                          owl:equivalentProperty :pageStart .
 
