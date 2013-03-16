@@ -19,7 +19,7 @@
                                  
                                  terms:title "The Bibliographic Ontology" ;
                                  
-                                 terms:description """The Bibliographic Ontology describe
+                                 terms:description """The Bibliographic Ontology describes
 bibliographic things on the semantic Web in RDF.  This ontology can be
 used as a citation ontology, as a document classification ontology, or
 simply as a way to describe any kind of document in RDF. It has been
