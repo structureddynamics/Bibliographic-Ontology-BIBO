@@ -374,7 +374,7 @@ another purpose.</rdfs:comment>
     <!-- http://purl.org/ontology/bibo/degree -->
 
     <owl:ObjectProperty rdf:about="degree">
-        <rdfs:label xml:lang="en">status</rdfs:label>
+        <rdfs:label xml:lang="en">degree</rdfs:label>
         <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI"
             >http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
         <rdfs:comment xml:lang="en"
