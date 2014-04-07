@@ -348,7 +348,7 @@ another purpose."""@en ;
 
 :degree rdf:type owl:ObjectProperty ;
         
-        rdfs:label "status"@en ;
+        rdfs:label "degree"@en ;
         
         rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
         
