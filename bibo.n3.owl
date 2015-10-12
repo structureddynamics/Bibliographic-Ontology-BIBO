@@ -2304,7 +2304,7 @@ Even if this link is not done in neither the FOAF nor the DCTERMS ontologies thi
 
 :MultiVolumeBook rdf:type owl:Class ;
                  
-                 rdfs:label "Series"@en ;
+                 rdfs:label "Multivolume Book"@en ;
                  
                  rdfs:subClassOf :Collection ,
                                  [ rdf:type owl:Restriction ;

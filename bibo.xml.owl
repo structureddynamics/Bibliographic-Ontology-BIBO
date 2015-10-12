@@ -2199,7 +2199,7 @@ Even if this link is not done in neither the FOAF nor the DCTERMS ontologies thi
     <!-- http://purl.org/ontology/bibo/MultiVolumeBook -->
 
     <owl:Class rdf:about="MultiVolumeBook">
-        <rdfs:label xml:lang="en">Series</rdfs:label>
+        <rdfs:label xml:lang="en">Multivolume Book</rdfs:label>
         <rdfs:subClassOf rdf:resource="Collection"/>
         <rdfs:subClassOf>
             <owl:Restriction>
