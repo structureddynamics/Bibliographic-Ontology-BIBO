@@ -4,4 +4,4 @@ The Bibliographic Ontology describe bibliographic things on the semantic Web in 
 
 == Documentation ==
 
-All the documentation related to umbel is available on [http://bibliontology.com BIBO's main website].
+All the documentation related to umbel is available on [http://bibliographic-ontology.org BIBO's main website].
