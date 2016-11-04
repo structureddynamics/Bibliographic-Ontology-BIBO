@@ -610,7 +610,7 @@ another purpose.</rdfs:comment>
     <!-- http://purl.org/ontology/bibo/presents -->
 
     <owl:ObjectProperty rdf:about="&bibo;presents">
-        <rdfs:label xml:lang="en">presented at</rdfs:label>
+        <rdfs:label xml:lang="en">presents</rdfs:label>
         <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI">http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
         <rdfs:comment xml:lang="en">Relates an event to associated documents; for example, conference to a paper.</rdfs:comment>
         <ns:term_status>unstable</ns:term_status>
