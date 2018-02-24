@@ -1,0 +1,6092 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.2-SNAPSHOT), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://purl.org/NET/c4dm/event.owl", "http://prismstandard.org/namespaces/1.2/basic", "http://schemas.talis.com/2005/address/schema", "http://www.w3.org/2000/01/rdf-schema", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://xmlns.com/foaf/0.1", "http://purl.org/ontology/bibo" ],
+    "title" : {
+      "undefined" : "The Bibliographic Ontology"
+    },
+    "iri" : "http://purl.org/ontology/bibo/",
+    "version" : "http://purl.org/ontology/bibo/1.3/",
+    "author" : [ "http://purl.org/ontology/bibo/bdarcus", "http://purl.org/ontology/bibo/fgiasson" ],
+    "description" : {
+      "en" : "The Bibliographic Ontology describes\nbibliographic things on the semantic Web in RDF.  This ontology can be\nused as a citation ontology, as a document classification ontology, or\nsimply as a way to describe any kind of document in RDF. It has been\ninspired by many existing document description metadata formats, and\ncan be used as a common ground for converting other bibliographic data\nsources."
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/fgiasson",
+        "type" : "iri"
+      }, {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/bdarcus",
+        "type" : "iri"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/1.3/",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "The Bibliographic Ontology",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "metrics" : {
+    "classCount" : 69,
+    "objectPropertyCount" : 53,
+    "datatypePropertyCount" : 55,
+    "individualCount" : 14
+  },
+  "class" : [ {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "190",
+    "type" : "owl:Class"
+  }, {
+    "id" : "94",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "170",
+    "type" : "owl:Class"
+  }, {
+    "id" : "211",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "194",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "56",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "33",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "198",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "209",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "owl:Class"
+  }, {
+    "id" : "231",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "236",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "239",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "215",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "245",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "227",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "213",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "153",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "48",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "169",
+    "type" : "owl:Class"
+  }, {
+    "id" : "246",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "159",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "248",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "251",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "204",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "265",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "114",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "112",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "206",
+    "type" : "owl:Class"
+  }, {
+    "id" : "111",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "270",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "202",
+    "type" : "owl:Class"
+  }, {
+    "id" : "274",
+    "type" : "owl:Class"
+  }, {
+    "id" : "192",
+    "type" : "owl:Class"
+  }, {
+    "id" : "273",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "275",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "277",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "262",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "261",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "223",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "281",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "216",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "284",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "177",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "254",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "229",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "253",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "283",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "287",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "172",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "179",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "130",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "297",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "300",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "286",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "312",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "290",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "264",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "258",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "44",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "256",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:Literal"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://purl.org/ontology/bibo/Code",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Code",
+      "en" : "Code"
+    },
+    "comment" : {
+      "en" : "A collection of statutes."
+    },
+    "id" : "8",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Note",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Note",
+      "en" : "Note"
+    },
+    "comment" : {
+      "en" : "Notes or annotations about a resource."
+    },
+    "id" : "20",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/ReferenceSource",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ReferenceSource",
+      "en" : "Reference Source"
+    },
+    "comment" : {
+      "en" : "A document that presents authoritative reference information, such as a dictionary or encylopedia ."
+    },
+    "id" : "22",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Interview",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Interview",
+      "en" : "Interview"
+    },
+    "comment" : {
+      "en" : "A formalized discussion between two or more people."
+    },
+    "id" : "25",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Document",
+    "equivalent" : [ "44" ],
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Document",
+      "en" : "Document"
+    },
+    "subClasses" : [ "27", "28", "29", "30", "31", "20", "22", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43" ],
+    "comment" : {
+      "en" : "A document (noun) is a bounded physical representation of body of information designed with the capacity (and usually intent) to communicate. A document may manifest symbolic, diagrammatic or sensory-representational information."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Slideshow",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Slideshow",
+      "en" : "Slideshow"
+    },
+    "comment" : {
+      "en" : "A presentation of a series of slides, usually presented in front of an audience with written text and images."
+    },
+    "id" : "34",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/AudioVisualDocument",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AudioVisualDocument",
+      "en" : "audio-visual document"
+    },
+    "subClasses" : [ "53" ],
+    "comment" : {
+      "en" : "An audio-visual document; film, video, and so forth."
+    },
+    "id" : "29",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/AcademicArticle",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AcademicArticle",
+      "en" : "Academic Article"
+    },
+    "comment" : {
+      "en" : "A scholarly academic article, typically published in a journal."
+    },
+    "id" : "63",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "List"
+    },
+    "attributes" : [ "external" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Thesis",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Thesis",
+      "en" : "Thesis"
+    },
+    "comment" : {
+      "en" : "A document created to summarize research findings associated with the completion of an academic degree."
+    },
+    "id" : "40",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Proceedings",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Proceedings",
+      "en" : "Proceedings"
+    },
+    "comment" : {
+      "en" : "A compilation of documents published from an event, such as a conference."
+    },
+    "id" : "107",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Bill",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Bill",
+      "en" : "Bill"
+    },
+    "comment" : {
+      "en" : "Draft legislation presented for discussion to a legal body."
+    },
+    "id" : "119",
+    "superClasses" : [ "120" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/MultiVolumeBook",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MultiVolumeBook",
+      "en" : "Multivolume Book"
+    },
+    "comment" : {
+      "en" : "A loose, thematic, collection of Documents, often Books."
+    },
+    "id" : "16",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Patent",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Patent",
+      "en" : "Patent"
+    },
+    "comment" : {
+      "en" : "A document describing the exclusive right granted by a government to an inventor to manufacture, use, or sell an invention for a certain number of years."
+    },
+    "id" : "28",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Email",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Email",
+      "en" : "EMail"
+    },
+    "comment" : {
+      "en" : "A written communication addressed to a person or organization and transmitted electronically."
+    },
+    "id" : "137",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Brief",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Brief",
+      "en" : "Brief"
+    },
+    "comment" : {
+      "en" : "A written argument submitted to a court."
+    },
+    "id" : "138",
+    "superClasses" : [ "139" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Journal",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Journal",
+      "en" : "Journal"
+    },
+    "comment" : {
+      "en" : "A periodical of scholarly journal Articles."
+    },
+    "id" : "10",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Periodical",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Periodical",
+      "en" : "Periodical"
+    },
+    "subClasses" : [ "1", "4", "6", "8", "10" ],
+    "comment" : {
+      "en" : "A group of related documents issued at regular intervals."
+    },
+    "id" : "2",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Seq"
+    },
+    "attributes" : [ "external" ],
+    "id" : "147"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Webpage",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Webpage",
+      "en" : "Webpage"
+    },
+    "comment" : {
+      "en" : "A web page is an online document available (at least initially) on the world wide web. A web page is written first and foremost to appear on the web, as distinct from other online resources such as books, manuscripts or audio documents which use the web primarily as a distribution mechanism alongside other more traditional methods such as print."
+    },
+    "id" : "32",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://purl.org/dc/terms/Agent",
+    "equivalent" : [ "56" ],
+    "baseIri" : "http://purl.org/dc/terms",
+    "instances" : 0,
+    "annotations" : {
+      "editorialNote" : [ {
+        "identifier" : "editorialNote",
+        "language" : "en",
+        "value" : "BIBO assert that a dcterms:Agent is an equivalent class to foaf:Agent.\nThis means that all the individuals belonging to the foaf:Agent class\nalso belongs to the dcterms:Agent class. This way, dcterms:contributor\ncan be used on foaf:Person, foaf:Organization, foaf:Agent and foaf:Group.\nEven if this link is not done in neither the FOAF nor the DCTERMS ontologies this is a wide spread fact that is asserted by BIBO.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Agent"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "155"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Collection",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Collection",
+      "en" : "Collection"
+    },
+    "subClasses" : [ "12", "2", "16", "169" ],
+    "comment" : {
+      "en" : "A collection of Documents or Collections"
+    },
+    "id" : "13"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/LegalCaseDocument",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "LegalCaseDocument",
+      "en" : "Legal Case Document"
+    },
+    "subClasses" : [ "170", "138" ],
+    "comment" : {
+      "en" : "A document accompanying a legal case."
+    },
+    "id" : "139",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Workshop",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Workshop",
+      "en" : "Workshop"
+    },
+    "comment" : {
+      "en" : "A seminar, discussion group, or the like, that emphasizes zxchange of ideas and the demonstration and application of techniques, skills, etc."
+    },
+    "id" : "190",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/BookSection",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BookSection",
+      "en" : "Book Section"
+    },
+    "subClasses" : [ "198" ],
+    "comment" : {
+      "en" : "A section of a book."
+    },
+    "id" : "94",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/DocumentPart",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DocumentPart",
+      "en" : "document part"
+    },
+    "subClasses" : [ "173", "94", "202" ],
+    "comment" : {
+      "en" : "a distinct part of a larger document or collected document."
+    },
+    "id" : "30",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/LegalDecision",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "LegalDecision",
+      "en" : "Decision"
+    },
+    "comment" : {
+      "en" : "A document containing an authoritative determination (as a decree or judgment) made after consideration of facts or law."
+    },
+    "id" : "170",
+    "superClasses" : [ "139" ]
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Image",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Image"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "211"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Hearing",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Hearing",
+      "en" : "Hearing"
+    },
+    "comment" : {
+      "en" : "An instance or a session in which testimony and arguments are presented, esp. before an official, as a judge in a lawsuit."
+    },
+    "id" : "194",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Letter",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Letter",
+      "en" : "Letter"
+    },
+    "comment" : {
+      "en" : "A written or printed communication addressed to a person or organization and usually transmitted by mail."
+    },
+    "id" : "163",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Film",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Film",
+      "en" : "Film"
+    },
+    "comment" : {
+      "en" : "aka movie."
+    },
+    "id" : "53",
+    "superClasses" : [ "29" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Manual",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Manual",
+      "en" : "Manual"
+    },
+    "comment" : {
+      "en" : "A small reference book, especially one giving instructions."
+    },
+    "id" : "27",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "221",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Agent",
+    "equivalent" : [ "155" ],
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to describe any \"agent\" related to bibliographic items. Such agents can be persons, organizations or groups of any kind.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Agent"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Image",
+    "equivalent" : [ "211" ],
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Image",
+      "en" : "Image"
+    },
+    "subClasses" : [ "204" ],
+    "comment" : {
+      "en" : "A document that presents visual or diagrammatic information."
+    },
+    "attributes" : [ "equivalent" ],
+    "id" : "33",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Chapter",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Chapter",
+      "en" : "Chapter"
+    },
+    "comment" : {
+      "en" : "A chapter of a book."
+    },
+    "id" : "198",
+    "superClasses" : [ "94" ]
+  }, {
+    "iri" : "http://purl.org/NET/c4dm/event.owl#Event",
+    "baseIri" : "http://purl.org/NET/c4dm/event.owl",
+    "instances" : 0,
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to describe bibliographic related events such as conferences, hearing, etc.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Event"
+    },
+    "subClasses" : [ "206", "209", "192", "194", "25", "190" ],
+    "attributes" : [ "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Conference",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Conference",
+      "en" : "Conference"
+    },
+    "comment" : {
+      "en" : "A meeting for consultation or discussion."
+    },
+    "id" : "209",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Excerpt",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Excerpt",
+      "en" : "Excerpt"
+    },
+    "subClasses" : [ "172" ],
+    "comment" : {
+      "en" : "A passage selected from a larger work."
+    },
+    "id" : "173",
+    "superClasses" : [ "30" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "231"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Book",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Book",
+      "en" : "Book"
+    },
+    "subClasses" : [ "107" ],
+    "comment" : {
+      "en" : "A written or printed work of fiction or nonfiction, usually on sheets of paper fastened or bound together within covers."
+    },
+    "id" : "39",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "90",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "95",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "234",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "136",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Organization",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Ued to describe an organization related to bibliographic items such as a publishing company, etc.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Organization"
+    },
+    "attributes" : [ "external" ],
+    "id" : "109"
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "235",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "236"
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "239"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "215",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Standard",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Standard",
+      "en" : "Standard"
+    },
+    "comment" : {
+      "en" : "A document describing a standard"
+    },
+    "id" : "35",
+    "superClasses" : [ "21" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "245"
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "227"
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "213"
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "153"
+  }, {
+    "instances" : 0,
+    "union" : [ "77", "147" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Series",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Series",
+      "en" : "Series"
+    },
+    "comment" : {
+      "en" : "A loose, thematic, collection of Documents, often Books."
+    },
+    "id" : "169",
+    "superClasses" : [ "13" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "77", "147" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "246"
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "159"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Person",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to describe a Person related to a bibliographic ite such as an author, an editor, etc.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Person"
+    },
+    "individuals" : [ {
+      "iri" : "http://purl.org/ontology/bibo/fgiasson",
+      "baseIri" : "http://purl.org/ontology/bibo",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://purl.org/ontology/bibo/",
+          "type" : "label"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "http://fgiasson.com/me/",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "fgiasson"
+      }
+    }, {
+      "iri" : "http://purl.org/ontology/bibo/bdarcus",
+      "baseIri" : "http://purl.org/ontology/bibo",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://purl.org/ontology/bibo/",
+          "type" : "label"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "http://purl.org/net/darcusb/info#me",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "bdarcus"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "248"
+  }, {
+    "instances" : 0,
+    "union" : [ "77", "147" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "123"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "250",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "238",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "251",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Map",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Map",
+      "en" : "Map"
+    },
+    "comment" : {
+      "en" : "A graphical depiction of geographic features."
+    },
+    "id" : "204",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Article",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Article",
+      "en" : "Article"
+    },
+    "subClasses" : [ "63" ],
+    "comment" : {
+      "en" : "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine."
+    },
+    "id" : "36",
+    "superClasses" : [ "21" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "265",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "266",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "19",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "114"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "112",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "267",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "115",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/PersonalCommunication",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PersonalCommunication",
+      "en" : "Personal Communication"
+    },
+    "comment" : {
+      "en" : "A communication between an agent and one or more specific recipients."
+    },
+    "id" : "206",
+    "superClasses" : [ "26" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "111"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "270",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/CollectedDocument",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CollectedDocument",
+      "en" : "Collected Document"
+    },
+    "subClasses" : [ "177", "179" ],
+    "comment" : {
+      "en" : "A document that simultaneously contains other documents."
+    },
+    "id" : "31",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Slide",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Slide",
+      "en" : "Slide"
+    },
+    "comment" : {
+      "en" : "A slide in a slideshow"
+    },
+    "id" : "202",
+    "superClasses" : [ "30" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/ThesisDegree",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "ThesisDegree",
+      "en" : "Thesis degree"
+    },
+    "individuals" : [ {
+      "iri" : "http://purl.org/ontology/bibo/degrees/ms",
+      "baseIri" : "http://purl.org/ontology/bibo/degrees",
+      "annotations" : {
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "stable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "masters degree in science"
+      },
+      "labels" : {
+        "IRI-based" : "ms",
+        "en" : "M.S."
+      }
+    }, {
+      "iri" : "http://purl.org/ontology/bibo/degrees/ma",
+      "baseIri" : "http://purl.org/ontology/bibo/degrees",
+      "annotations" : {
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "stable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "masters degree in arts"
+      },
+      "labels" : {
+        "IRI-based" : "ma",
+        "en" : "M.A."
+      }
+    }, {
+      "iri" : "http://purl.org/ontology/bibo/degrees/phd",
+      "baseIri" : "http://purl.org/ontology/bibo/degrees",
+      "annotations" : {
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "stable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "PhD degree"
+      },
+      "labels" : {
+        "IRI-based" : "phd",
+        "en" : "PhD degree"
+      }
+    } ],
+    "comment" : {
+      "en" : "The academic degree of a Thesis"
+    },
+    "id" : "274"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Performance",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Performance",
+      "en" : "Performance"
+    },
+    "comment" : {
+      "en" : "A public performance."
+    },
+    "id" : "192",
+    "superClasses" : [ "26" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "273"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "275",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "262",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "261"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "224",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "223"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "281",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Resource",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Resource"
+    },
+    "attributes" : [ "external" ],
+    "id" : "216"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "117",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Event",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Event"
+    },
+    "id" : "154"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "24",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/CourtReporter",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CourtReporter",
+      "en" : "Court Reporter"
+    },
+    "comment" : {
+      "en" : "A collection of legal cases."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "284",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "144",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Issue",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Issue",
+      "en" : "Issue"
+    },
+    "comment" : {
+      "en" : "something that is printed or published and distributed, esp. a given number of a periodical"
+    },
+    "id" : "177",
+    "superClasses" : [ "31" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "143"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "254",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "230",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "229"
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "253"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "283",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "92",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "141",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "104",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/DocumentStatus",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DocumentStatus",
+      "en" : "Document Status"
+    },
+    "individuals" : [ {
+      "iri" : "http://purl.org/ontology/bibo/status/legal",
+      "baseIri" : "http://purl.org/ontology/bibo/status",
+      "annotations" : {
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "stable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Legal document"
+      },
+      "labels" : {
+        "IRI-based" : "legal",
+        "en" : "legal"
+      }
+    }, {
+      "iri" : "http://purl.org/ontology/bibo/status/accepted",
+      "baseIri" : "http://purl.org/ontology/bibo/status",
+      "annotations" : {
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "stable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Accepted for publication after peer reviewing."
+      },
+      "labels" : {
+        "IRI-based" : "accepted",
+        "en" : "accepted"
+      }
+    }, {
+      "iri" : "http://purl.org/ontology/bibo/status/published",
+      "baseIri" : "http://purl.org/ontology/bibo/status",
+      "annotations" : {
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "stable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Published document"
+      },
+      "labels" : {
+        "IRI-based" : "published",
+        "en" : "published"
+      }
+    }, {
+      "iri" : "http://purl.org/ontology/bibo/status/peerReviewed",
+      "baseIri" : "http://purl.org/ontology/bibo/status",
+      "annotations" : {
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "stable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "The process by which articles are chosen to be included in a refereed journal. An editorial board consisting of experts in the same field as the author review the article and decide if it is authoritative enough for publication."
+      },
+      "labels" : {
+        "IRI-based" : "peerReviewed",
+        "en" : "peer reviewed"
+      }
+    }, {
+      "iri" : "http://purl.org/ontology/bibo/status/draft",
+      "baseIri" : "http://purl.org/ontology/bibo/status",
+      "annotations" : {
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "stable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Document drafted"
+      },
+      "labels" : {
+        "IRI-based" : "draft",
+        "en" : "draft"
+      }
+    }, {
+      "iri" : "http://purl.org/ontology/bibo/status/unpublished",
+      "baseIri" : "http://purl.org/ontology/bibo/status",
+      "annotations" : {
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "stable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Unpublished document"
+      },
+      "labels" : {
+        "IRI-based" : "unpublished",
+        "en" : "unpublished"
+      }
+    }, {
+      "iri" : "http://purl.org/ontology/bibo/status/rejected",
+      "baseIri" : "http://purl.org/ontology/bibo/status",
+      "annotations" : {
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "stable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Rejected for publication after peer reviewing."
+      },
+      "labels" : {
+        "IRI-based" : "rejected",
+        "en" : "rejected"
+      }
+    }, {
+      "iri" : "http://purl.org/ontology/bibo/status/forthcoming",
+      "baseIri" : "http://purl.org/ontology/bibo/status",
+      "annotations" : {
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "stable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Document to be published"
+      },
+      "labels" : {
+        "IRI-based" : "forthcoming",
+        "en" : "forthcoming"
+      }
+    }, {
+      "iri" : "http://purl.org/ontology/bibo/status/nonPeerReviewed",
+      "baseIri" : "http://purl.org/ontology/bibo/status",
+      "annotations" : {
+        "term_status" : [ {
+          "identifier" : "term_status",
+          "language" : "undefined",
+          "value" : "stable",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "A document that is not peer reviewed"
+      },
+      "labels" : {
+        "IRI-based" : "nonPeerReviewed",
+        "en" : "non peer reviewed"
+      }
+    } ],
+    "comment" : {
+      "en" : "The status of the publication of a document."
+    },
+    "id" : "287"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Magazine",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Magazine",
+      "en" : "Magazine"
+    },
+    "comment" : {
+      "en" : "A periodical of magazine Articles. A magazine is a publication that is issued periodically, usually bound in a paper cover, and typically contains essays, stories, poems, etc., by many writers, and often photographs and drawings, frequently specializing in a particular subject or area, as hobbies, news, or sports."
+    },
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "157"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Quote",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Quote",
+      "en" : "Quote"
+    },
+    "comment" : {
+      "en" : "An excerpted collection of words."
+    },
+    "id" : "172",
+    "superClasses" : [ "173" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "146",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "158",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/EditedBook",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "EditedBook",
+      "en" : "Edited Book"
+    },
+    "comment" : {
+      "en" : "An edited book."
+    },
+    "id" : "179",
+    "superClasses" : [ "31" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Report",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Report",
+      "en" : "Report"
+    },
+    "comment" : {
+      "en" : "A document describing an account or statement describing in detail an event, situation, or the like, usually as the result of observation, inquiry, etc.."
+    },
+    "id" : "43",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "131",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "instances" : 0,
+    "union" : [ "13", "21" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "244",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "188",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "297",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "300",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Website",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Website",
+      "en" : "Website"
+    },
+    "comment" : {
+      "en" : "A group of Webpages accessible on the Web."
+    },
+    "id" : "12",
+    "superClasses" : [ "13" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Manuscript",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Manuscript",
+      "en" : "Manuscript"
+    },
+    "comment" : {
+      "en" : "An unpublished Document, which may also be submitted to a publisher for publication."
+    },
+    "id" : "41",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/PersonalCommunicationDocument",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PersonalCommunicationDocument",
+      "en" : "Personal Communication Document"
+    },
+    "subClasses" : [ "137", "163" ],
+    "comment" : {
+      "en" : "A personal communication manifested in some document."
+    },
+    "id" : "42",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "286",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "133",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "312",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "290",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "106",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "98",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "122",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "271",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Legislation",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Legislation",
+      "en" : "Legislation"
+    },
+    "subClasses" : [ "119", "166" ],
+    "comment" : {
+      "en" : "A legal document proposing or enacting a law or a group of laws."
+    },
+    "id" : "120",
+    "superClasses" : [ "38" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "264",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "258",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/Document",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Document"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Statute",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Statute",
+      "en" : "Statute"
+    },
+    "comment" : {
+      "en" : "A bill enacted into law."
+    },
+    "id" : "166",
+    "superClasses" : [ "120" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/LegalDocument",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "LegalDocument",
+      "en" : "Legal Document"
+    },
+    "subClasses" : [ "139", "120" ],
+    "comment" : {
+      "en" : "A legal document; for example, a court decision, a brief, and so forth."
+    },
+    "id" : "38",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/AudioDocument",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "AudioDocument",
+      "en" : "audio document"
+    },
+    "comment" : {
+      "en" : "An audio document; aka record."
+    },
+    "id" : "37",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/Newspaper",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Newspaper",
+      "en" : "Newspaper"
+    },
+    "comment" : {
+      "en" : "A periodical of documents, usually issued daily or weekly, containing current news, editorials, feature articles, and usually advertising."
+    },
+    "id" : "6",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "256",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "80",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "75",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "84",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "17",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "45",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "60",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "73",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "74",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "78",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "87",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "89",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "91",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "96",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "97",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "70",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "103",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "105",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "108",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "110",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "113",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "116",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "121",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "49",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "129",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "132",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "134",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "140",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "142",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "145",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "148",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "72",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "156",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "160",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "167",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "174",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "183",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "185",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "187",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "200",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "210",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "212",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "214",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "126",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "217",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "222",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "225",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "182",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "228",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "232",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "233",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "237",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "240",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "241",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "242",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "243",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "100",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "226",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "186",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "247",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "249",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "101",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "252",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "255",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "257",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "260",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "263",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "161",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "268",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "189",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "272",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "184",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "278",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "280",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "282",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "285",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "149",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "50",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "279",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "276",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "288",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "289",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "291",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "292",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "293",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "294",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "295",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "296",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "298",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "299",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "301",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "302",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "303",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "304",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "305",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "306",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "307",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "308",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "309",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "310",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "311",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "269",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "118",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "313",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "314",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "315",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "316",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "259",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "317",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "318",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "319",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "range" : "2",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "5"
+  }, {
+    "range" : "2",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "7"
+  }, {
+    "range" : "2",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "9"
+  }, {
+    "range" : "13",
+    "domain" : "12",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "range" : "13",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "13",
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/lccn",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "19",
+    "label" : {
+      "IRI-based" : "lccn"
+    },
+    "domain" : "18",
+    "attributes" : [ "datatype" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://purl.org/NET/c4dm/event.owl#agent",
+    "baseIri" : "http://purl.org/NET/c4dm/event.owl",
+    "range" : "24",
+    "annotations" : {
+      "changeNote" : [ {
+        "identifier" : "changeNote",
+        "language" : "en",
+        "value" : "Used to link an agent (a person) to an event (a conference, an hearing, etc.)",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "agent"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://purl.org/dc/terms/date",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "46",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Use to link a bibliographic item to the date of an event. Check dcterms:created and other for proper specializations for this property",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "date"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/contributorList",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "48",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "contributorList",
+      "en" : "list of contributors"
+    },
+    "domain" : "21",
+    "subproperty" : [ "49", "50" ],
+    "comment" : {
+      "en" : "An ordered list of contributors. Normally, this list is seen as a priority list that order contributors by importance."
+    },
+    "attributes" : [ "object" ],
+    "id" : "47"
+  }, {
+    "range" : "21",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "range" : "29",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "21",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/suffixName",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "57",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "suffixName",
+      "en" : "suffix name"
+    },
+    "domain" : "56",
+    "comment" : {
+      "en" : "The suffix of a name"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "55"
+  }, {
+    "iri" : "http://schemas.talis.com/2005/address/schema#localityName",
+    "baseIri" : "http://schemas.talis.com/2005/address/schema",
+    "range" : "59",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to name the locality of a publisher, an author, etc.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "localityName"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "58"
+  }, {
+    "range" : "21",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "range" : "21",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "21",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
+  }, {
+    "range" : "21",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "21",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "21",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "21",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "21",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/interviewee",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interviewee",
+      "undefined" : "interviewee"
+    },
+    "superproperty" : [ "70" ],
+    "domain" : "56",
+    "comment" : {
+      "en" : "An agent that is interviewed by another agent."
+    },
+    "attributes" : [ "object" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://purl.org/NET/c4dm/event.owl#produced_in",
+    "baseIri" : "http://purl.org/NET/c4dm/event.owl",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "produced_in"
+    },
+    "domain" : "24",
+    "subproperty" : [ "72" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/based_near",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to link an agent, related to bibliographic things, to a place where it is based near: can be a city, a monument, a building, etc.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "based_near"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "73"
+  }, {
+    "iri" : "http://purl.org/dc/terms/created",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "75",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to describe the creation date of a bibliographic item",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "created"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/interviewer",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "interviewer",
+      "undefined" : "interviewer"
+    },
+    "superproperty" : [ "70" ],
+    "domain" : "56",
+    "comment" : {
+      "en" : "An agent that interview another agent."
+    },
+    "attributes" : [ "object" ],
+    "id" : "76"
+  }, {
+    "iri" : "http://purl.org/dc/terms/language",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to link a bibliographic resource to the language used to express it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "language"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://prismstandard.org/namespaces/1.2/basic/issue",
+    "baseIri" : "http://prismstandard.org/namespaces/1.2/basic",
+    "range" : "80",
+    "label" : {
+      "IRI-based" : "issue"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "79"
+  }, {
+    "range" : "21",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/name",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "84",
+    "label" : {
+      "IRI-based" : "name"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "83"
+  }, {
+    "range" : "21",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "range" : "21",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/givenname",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "88",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "This is the property we choose to describe the given name of a Person related to a bibliographic resource. This is the first name of a person.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "givenname"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "87"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/content",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "90",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ],
+      "historyNote" : [ {
+        "identifier" : "historyNote",
+        "language" : "en",
+        "value" : "bibo:content has been deprecated; we recommend to use \"rdf:value\" for this purpose. Here is the rational behind this choice: http://www.w3.org/TR/2004/REC-rdf-primer-20040210/#rdfvalue",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "content",
+      "en" : "content"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "This property is for a plain-text rendering of the content of a Document. While the plain-text content of an entire document could be described by this property."
+    },
+    "attributes" : [ "deprecated", "datatype" ],
+    "id" : "89"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/prefixName",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "92",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "prefixName",
+      "en" : "prefix name"
+    },
+    "domain" : "56",
+    "comment" : {
+      "en" : "The prefix of a name"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/chapter",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "95",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "chapter",
+      "en" : "chapter"
+    },
+    "domain" : "94",
+    "comment" : {
+      "en" : "An chapter number"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "93"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/depiction",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to link an agent with an image that depict it.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "depiction"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/family_name",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "98",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "This is the property we choose to use to describe the family name of a person related to a bibliographic resource.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "family_name"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "97"
+  }, {
+    "iri" : "http://purl.org/dc/terms/contributor",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to link a bibliographic item to one of its contributor: can be an author, an editor, a publisher, etc.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "contributor"
+    },
+    "domain" : "24",
+    "subproperty" : [ "99", "100", "76", "101", "102", "69" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/shortDescription",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "104",
+    "label" : {
+      "IRI-based" : "shortDescription"
+    },
+    "domain" : "21",
+    "attributes" : [ "datatype" ],
+    "id" : "103"
+  }, {
+    "iri" : "http://prismstandard.org/namespaces/1.2/basic/startingPage",
+    "baseIri" : "http://prismstandard.org/namespaces/1.2/basic",
+    "range" : "106",
+    "label" : {
+      "IRI-based" : "startingPage"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "105"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/court",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "109",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "court",
+      "en" : "court"
+    },
+    "domain" : "38",
+    "comment" : {
+      "en" : "A court associated with a legal document; for example, that which issues a decision."
+    },
+    "attributes" : [ "object" ],
+    "id" : "108"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/isbn10",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "112",
+    "label" : {
+      "IRI-based" : "isbn10"
+    },
+    "domain" : "111",
+    "attributes" : [ "datatype" ],
+    "id" : "110"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/isbn13",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "115",
+    "label" : {
+      "IRI-based" : "isbn13"
+    },
+    "domain" : "114",
+    "attributes" : [ "datatype" ],
+    "id" : "113"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/edition",
+    "equivalent" : [ "118" ],
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "117",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "edition",
+      "en" : "edition"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "The name defining a special edition of a document. Normally its a literal value composed of a version number and words."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "116"
+  }, {
+    "iri" : "http://prismstandard.org/namespaces/1.2/basic/number",
+    "baseIri" : "http://prismstandard.org/namespaces/1.2/basic",
+    "range" : "122",
+    "label" : {
+      "IRI-based" : "number"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/authorList",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "123",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "authorList",
+      "en" : "list of authors"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "21",
+    "comment" : {
+      "en" : "An ordered list of authors. Normally, this list is seen as a priority list that order authors by importance."
+    },
+    "attributes" : [ "object" ],
+    "id" : "49"
+  }, {
+    "iri" : "http://purl.org/dc/terms/relation",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "relation"
+    },
+    "domain" : "24",
+    "subproperty" : [ "125", "126", "127" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "124"
+  }, {
+    "iri" : "http://purl.org/dc/terms/title",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to describe the title of a bibliographic resource",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "title"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "128"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/oclcnum",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "131",
+    "label" : {
+      "IRI-based" : "oclcnum"
+    },
+    "domain" : "130",
+    "attributes" : [ "datatype" ],
+    "id" : "129"
+  }, {
+    "iri" : "http://purl.org/dc/terms/issued",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "133",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to describe the issue date of a bibliographic resource",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "issued"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "132"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/coden",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "136",
+    "label" : {
+      "IRI-based" : "coden"
+    },
+    "domain" : "135",
+    "attributes" : [ "datatype" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/shortTitle",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "141",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "shortTitle",
+      "en" : "short title"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "The abbreviation of a title."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "140"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/uri",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "144",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "uri",
+      "en" : "uri"
+    },
+    "domain" : "143",
+    "comment" : {
+      "en" : "Universal Resource Identifier of a document"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "142"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/pages",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "146",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "pages",
+      "en" : "pages"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "A string of non-contiguous page spans that locate a Document within a Collection. Example: 23-25, 34, 54-56. For continuous page ranges, use the pageStart and pageEnd properties."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "145"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/cites",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "21",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "cites",
+      "en" : "cites"
+    },
+    "superproperty" : [ "149" ],
+    "domain" : "21",
+    "comment" : {
+      "en" : "Relates a document to another document that is cited\nby the first document as reference, comment, review, quotation or for\nanother purpose."
+    },
+    "attributes" : [ "object" ],
+    "id" : "148"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/citedBy",
+    "inverse" : "148",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "21",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "citedBy",
+      "en" : "cited by"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "Relates a document to another document that cites the\nfirst document."
+    },
+    "attributes" : [ "object" ],
+    "id" : "150"
+  }, {
+    "iri" : "http://purl.org/NET/c4dm/event.owl#sub_event",
+    "baseIri" : "http://purl.org/NET/c4dm/event.owl",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to link big events with smaller events such as workshops that happen in the context of a conference.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "sub_event"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "151"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/distributor",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "distributor",
+      "en" : "distributor"
+    },
+    "domain" : "153",
+    "comment" : {
+      "en" : "Distributor of a document or a collection of documents."
+    },
+    "attributes" : [ "object" ],
+    "id" : "152"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/presentedAt",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "154",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "presentedAt",
+      "en" : "presented at"
+    },
+    "superproperty" : [ "71" ],
+    "domain" : "21",
+    "comment" : {
+      "en" : "Relates a document to an event; for example, a paper to a conference."
+    },
+    "attributes" : [ "object" ],
+    "id" : "72"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/pmid",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "158",
+    "label" : {
+      "IRI-based" : "pmid"
+    },
+    "domain" : "157",
+    "attributes" : [ "datatype" ],
+    "id" : "156"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/editor",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "editor",
+      "undefined" : "editor"
+    },
+    "superproperty" : [ "70" ],
+    "domain" : "159",
+    "comment" : {
+      "en" : "A person having managerial and sometimes policy-making responsibility for the editorial part of a publishing firm or of a newspaper, magazine, or other publication."
+    },
+    "attributes" : [ "object" ],
+    "id" : "99"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/reproducedIn",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "21",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "reproducedIn"
+    },
+    "superproperty" : [ "161" ],
+    "domain" : "21",
+    "comment" : {
+      "en" : "The resource in which another resource is reproduced."
+    },
+    "attributes" : [ "object" ],
+    "id" : "160"
+  }, {
+    "range" : "42",
+    "domain" : "163",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "range" : "120",
+    "domain" : "119",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "164"
+  }, {
+    "range" : "120",
+    "domain" : "166",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "165"
+  }, {
+    "range" : "38",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "167"
+  }, {
+    "range" : "38",
+    "domain" : "120",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "range" : "173",
+    "domain" : "172",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "range" : "39",
+    "domain" : "107",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "174"
+  }, {
+    "range" : "36",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "175"
+  }, {
+    "range" : "31",
+    "domain" : "177",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "176"
+  }, {
+    "range" : "31",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "range" : "42",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "iri" : "http://purl.org/dc/terms/publisher",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to link a bibliographic item to its publisher.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "publisher"
+    },
+    "domain" : "24",
+    "subproperty" : [ "182" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "181"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/affirmedBy",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "170",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "affirmedBy"
+    },
+    "superproperty" : [ "184" ],
+    "domain" : "170",
+    "comment" : {
+      "en" : "A legal decision that affirms a ruling."
+    },
+    "attributes" : [ "object" ],
+    "id" : "183"
+  }, {
+    "iri" : "http://purl.org/NET/c4dm/event.owl#product",
+    "baseIri" : "http://purl.org/NET/c4dm/event.owl",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to link an event such as a conference to an outcome (a product) of that event, for example, an article, a proceeding, etc.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "product"
+    },
+    "domain" : "24",
+    "subproperty" : [ "186" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "185"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/pageEnd",
+    "equivalent" : [ "189" ],
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "188",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "pageEnd",
+      "en" : "page end"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "Ending page number within a continuous page range."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "187"
+  }, {
+    "range" : "26",
+    "domain" : "192",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "range" : "26",
+    "domain" : "194",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "range" : "26",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "195"
+  }, {
+    "range" : "26",
+    "domain" : "190",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "range" : "94",
+    "domain" : "198",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "197"
+  }, {
+    "range" : "30",
+    "domain" : "173",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "range" : "30",
+    "domain" : "94",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "200"
+  }, {
+    "range" : "30",
+    "domain" : "202",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "201"
+  }, {
+    "range" : "33",
+    "domain" : "204",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "203"
+  }, {
+    "range" : "26",
+    "domain" : "206",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "iri" : "http://purl.org/dc/terms/rights",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to describe rights related to a bibliographic resource.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "rights"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "207"
+  }, {
+    "range" : "26",
+    "domain" : "209",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "208"
+  }, {
+    "iri" : "http://purl.org/dc/terms/format",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "24",
+    "annotations" : {
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "<dcterms:format>\n   <dcterms:MediaTypeOrExtent>\n     <rdf:value>text/html</rdf:value>\n     <rdfs:label>HTML</rdfs:label>\n   </dcterms:MediaTypeOrExtent>\n </dcterms:format>",
+        "type" : "label"
+      } ],
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to describe the format of a bibliographic resource.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "format"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "210"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/producer",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "producer",
+      "en" : "producer"
+    },
+    "domain" : "213",
+    "comment" : {
+      "en" : "Producer of a document or a collection of documents."
+    },
+    "attributes" : [ "object" ],
+    "id" : "212"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/argued",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "215",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "argued",
+      "en" : "date argued"
+    },
+    "domain" : "38",
+    "comment" : {
+      "en" : "The date on which a legal case is argued before a court. Date is of format xsd:date"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "214"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/reviewOf",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "216",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "reviewOf",
+      "en" : "review of"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "21",
+    "comment" : {
+      "en" : "Relates a review document to a reviewed thing (resource, item, etc.)."
+    },
+    "attributes" : [ "object" ],
+    "id" : "126"
+  }, {
+    "iri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+    "baseIri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to describe the content of a bibo:Document and othr bibliographic resouces.\n\nWe suggest to use this property instead of the deprecated \"bibo:content\" one.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "value"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "217"
+  }, {
+    "range" : "13",
+    "domain" : "169",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "range" : "139",
+    "domain" : "170",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "range" : "139",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "220"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/eanucc13",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "224",
+    "label" : {
+      "IRI-based" : "eanucc13"
+    },
+    "domain" : "223",
+    "attributes" : [ "datatype" ],
+    "id" : "222"
+  }, {
+    "iri" : "http://purl.org/dc/terms/isVersionOf",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "isVersionOf"
+    },
+    "domain" : "24",
+    "subproperty" : [ "226" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "225"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/issuer",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "issuer",
+      "undefined" : "issuer"
+    },
+    "superproperty" : [ "181" ],
+    "domain" : "227",
+    "comment" : {
+      "undefined" : "An entity responsible for issuing often informally published documents such as press releases, reports, etc."
+    },
+    "attributes" : [ "object" ],
+    "id" : "182"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/sici",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "230",
+    "label" : {
+      "IRI-based" : "sici"
+    },
+    "domain" : "229",
+    "attributes" : [ "datatype" ],
+    "id" : "228"
+  }, {
+    "iri" : "http://purl.org/NET/c4dm/event.owl#time",
+    "baseIri" : "http://purl.org/NET/c4dm/event.owl",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to describe the timing of an event. For example, when a conference starts and stops.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "time"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "232"
+  }, {
+    "iri" : "http://purl.org/dc/terms/subject",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to describe the subject of a bibliographic resource.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "subject"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "233"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/number",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "238",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "number",
+      "en" : "number"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "A generic item or document number. Not to be confused with issue number."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "237"
+  }, {
+    "iri" : "http://purl.org/dc/terms/isReferencedBy",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to relate a reference citation to a bibliographic resource.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "isReferencedBy"
+    },
+    "domain" : "24",
+    "subproperty" : [ "184" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "240"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/organizer",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "organizer",
+      "en" : "organizer"
+    },
+    "domain" : "26",
+    "comment" : {
+      "en" : "The organizer of an event; includes conference organizers, but also government agencies or other bodies that are responsible for conducting hearings."
+    },
+    "attributes" : [ "object" ],
+    "id" : "241"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/abstract",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "235",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "abstract",
+      "undefined" : "abstract"
+    },
+    "domain" : "216",
+    "comment" : {
+      "undefined" : "A summary of the resource."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "242"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/pageStart",
+    "equivalent" : [ "105" ],
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "244",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "pageStart",
+      "en" : "page start"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "Starting page number within a continuous page range."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "243"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/transcriptOf",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "216",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "transcriptOf",
+      "en" : "transcript of"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "21",
+    "comment" : {
+      "en" : "Relates a document to some transcribed original."
+    },
+    "attributes" : [ "object" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/performer",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "performer",
+      "undefined" : "performer"
+    },
+    "superproperty" : [ "70" ],
+    "domain" : "192",
+    "attributes" : [ "object" ],
+    "id" : "100"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/translationOf",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "21",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "translationOf",
+      "en" : "translation of"
+    },
+    "superproperty" : [ "225" ],
+    "domain" : "21",
+    "comment" : {
+      "en" : "Relates a translated document to the original document."
+    },
+    "attributes" : [ "object" ],
+    "id" : "226"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/presents",
+    "inverse" : "72",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "21",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "presents",
+      "en" : "presents"
+    },
+    "superproperty" : [ "185" ],
+    "domain" : "154",
+    "comment" : {
+      "en" : "Relates an event to associated documents; for example, conference to a paper."
+    },
+    "attributes" : [ "object" ],
+    "id" : "186"
+  }, {
+    "iri" : "http://purl.org/dc/terms/hasPart",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "202",
+    "label" : {
+      "IRI-based" : "hasPart"
+    },
+    "domain" : "34",
+    "attributes" : [ "external", "object", "allValues" ],
+    "id" : "247"
+  }, {
+    "iri" : "http://purl.org/dc/terms/hasPart",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "hasPart"
+    },
+    "domain" : "12",
+    "attributes" : [ "external", "object", "allValues" ],
+    "id" : "249"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/translator",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "translator",
+      "undefined" : "translator"
+    },
+    "superproperty" : [ "70" ],
+    "domain" : "236",
+    "comment" : {
+      "en" : "A person who translates written document from one language to another."
+    },
+    "attributes" : [ "object" ],
+    "id" : "101"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/upc",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "254",
+    "label" : {
+      "IRI-based" : "upc"
+    },
+    "domain" : "253",
+    "attributes" : [ "datatype" ],
+    "id" : "252"
+  }, {
+    "iri" : "http://prismstandard.org/namespaces/1.2/basic/volume",
+    "baseIri" : "http://prismstandard.org/namespaces/1.2/basic",
+    "range" : "256",
+    "label" : {
+      "IRI-based" : "volume"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "255"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/isbn",
+    "equivalent" : [ "259" ],
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "258",
+    "label" : {
+      "IRI-based" : "isbn"
+    },
+    "domain" : "24",
+    "attributes" : [ "datatype" ],
+    "id" : "257"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/handle",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "262",
+    "label" : {
+      "IRI-based" : "handle"
+    },
+    "domain" : "261",
+    "attributes" : [ "datatype" ],
+    "id" : "260"
+  }, {
+    "iri" : "http://prismstandard.org/namespaces/1.2/basic/eIssn",
+    "baseIri" : "http://prismstandard.org/namespaces/1.2/basic",
+    "range" : "264",
+    "label" : {
+      "IRI-based" : "eIssn"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "263"
+  }, {
+    "iri" : "http://purl.org/dc/terms/isPartOf",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "isPartOf"
+    },
+    "maxCardinality" : "1",
+    "domain" : "24",
+    "subproperty" : [ "160" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "161"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/issn",
+    "equivalent" : [ "269" ],
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "267",
+    "label" : {
+      "IRI-based" : "issn"
+    },
+    "domain" : "13",
+    "attributes" : [ "datatype" ],
+    "id" : "268"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/director",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "director",
+      "undefined" : "director"
+    },
+    "superproperty" : [ "70" ],
+    "domain" : "29",
+    "comment" : {
+      "en" : "A Film director."
+    },
+    "attributes" : [ "object" ],
+    "id" : "102"
+  }, {
+    "iri" : "http://prismstandard.org/namespaces/1.2/basic/endingPage",
+    "baseIri" : "http://prismstandard.org/namespaces/1.2/basic",
+    "range" : "271",
+    "label" : {
+      "IRI-based" : "endingPage"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "189"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/identifier",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "270",
+    "label" : {
+      "IRI-based" : "identifier"
+    },
+    "domain" : "273",
+    "attributes" : [ "datatype" ],
+    "id" : "272"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/subsequentLegalDecision",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "170",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "subsequentLegalDecision"
+    },
+    "superproperty" : [ "240" ],
+    "domain" : "170",
+    "subproperty" : [ "276", "183" ],
+    "comment" : {
+      "en" : "A legal decision on appeal that takes action on a case (affirming it, reversing it, etc.)."
+    },
+    "attributes" : [ "object" ],
+    "id" : "184"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/doi",
+    "equivalent" : [ "279" ],
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "221",
+    "label" : {
+      "IRI-based" : "doi"
+    },
+    "domain" : "231",
+    "attributes" : [ "datatype" ],
+    "id" : "278"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/annotates",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "216",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "annotates",
+      "en" : "annotates"
+    },
+    "superproperty" : [ "124" ],
+    "domain" : "20",
+    "comment" : {
+      "en" : "Critical or explanatory note for a Document."
+    },
+    "attributes" : [ "object" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://xmlns.com/foaf/0.1/homepage",
+    "baseIri" : "http://xmlns.com/foaf/0.1",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to link an agent to its homepage (which is a web page accessible using a URL).",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "homepage"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "280"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/section",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "283",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ],
+      "example" : [ {
+        "identifier" : "example",
+        "language" : "en",
+        "value" : "Di Rado, Alicia. 1995. Trekking through college: Classes explore\nmodern society using the world of Star trek. Los Angeles Times, March\n15, sec. A, p. 3.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "section",
+      "en" : "section"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "A section number"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "282"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/degree",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "274",
+    "annotations" : {
+      "editorialNote" : [ {
+        "identifier" : "editorialNote",
+        "language" : "en",
+        "value" : "We are not defining, using an enumeration, the range of the bibo:degree to the defined list of bibo:ThesisDegree. We won't do it because we want people to be able to define new degress if needed by some special usecases. Creating such an enumeration would restrict this to happen.",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "degree",
+      "en" : "degree"
+    },
+    "domain" : "40",
+    "comment" : {
+      "en" : "The thesis degree."
+    },
+    "attributes" : [ "object" ],
+    "id" : "285"
+  }, {
+    "iri" : "http://purl.org/dc/terms/references",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "references"
+    },
+    "domain" : "24",
+    "subproperty" : [ "148" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "149"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/editorList",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "246",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "editorList",
+      "en" : "list of editors"
+    },
+    "superproperty" : [ "47" ],
+    "domain" : "21",
+    "comment" : {
+      "en" : "An ordered list of editors. Normally, this list is seen as a priority list that order editors by importance."
+    },
+    "attributes" : [ "object" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://prismstandard.org/namespaces/1.2/basic/doi",
+    "baseIri" : "http://prismstandard.org/namespaces/1.2/basic",
+    "range" : "286",
+    "label" : {
+      "IRI-based" : "doi"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "279"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/reversedBy",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "170",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "reversedBy"
+    },
+    "superproperty" : [ "184" ],
+    "domain" : "170",
+    "comment" : {
+      "en" : "A legal decision that reverses a ruling."
+    },
+    "attributes" : [ "object" ],
+    "id" : "276"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/numPages",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "250",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "numPages",
+      "en" : "number of pages"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "The number of pages contained in a document"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "288"
+  }, {
+    "iri" : "http://purl.org/dc/terms/description",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "290",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to describe a bibliographic resource.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "description"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "289"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/owner",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "unstable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "owner",
+      "en" : "owner"
+    },
+    "domain" : "245",
+    "comment" : {
+      "en" : "Owner of a document or a collection of documents."
+    },
+    "attributes" : [ "object" ],
+    "id" : "291"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/asin",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "234",
+    "label" : {
+      "IRI-based" : "asin"
+    },
+    "domain" : "239",
+    "attributes" : [ "datatype" ],
+    "id" : "292"
+  }, {
+    "range" : "21",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "293"
+  }, {
+    "range" : "21",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "294"
+  }, {
+    "range" : "21",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "295"
+  }, {
+    "range" : "21",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "296"
+  }, {
+    "range" : "21",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "298"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/recipient",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "56",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "recipient",
+      "undefined" : "recipient"
+    },
+    "domain" : "42",
+    "comment" : {
+      "en" : "An agent that receives a communication document."
+    },
+    "attributes" : [ "object" ],
+    "id" : "299"
+  }, {
+    "iri" : "http://purl.org/dc/terms/hasPart",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "hasPart"
+    },
+    "domain" : "1",
+    "attributes" : [ "external", "object", "allValues" ],
+    "id" : "301"
+  }, {
+    "iri" : "http://purl.org/dc/terms/hasPart",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "hasPart"
+    },
+    "domain" : "177",
+    "attributes" : [ "external", "object", "allValues" ],
+    "id" : "302"
+  }, {
+    "iri" : "http://purl.org/dc/terms/hasPart",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "177",
+    "label" : {
+      "IRI-based" : "hasPart"
+    },
+    "domain" : "10",
+    "attributes" : [ "external", "object", "allValues" ],
+    "id" : "303"
+  }, {
+    "iri" : "http://purl.org/dc/terms/hasPart",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "177",
+    "label" : {
+      "IRI-based" : "hasPart"
+    },
+    "domain" : "4",
+    "attributes" : [ "external", "object", "allValues" ],
+    "id" : "304"
+  }, {
+    "iri" : "http://purl.org/dc/terms/hasPart",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasPart"
+    },
+    "domain" : "16",
+    "attributes" : [ "external", "object", "allValues" ],
+    "id" : "305"
+  }, {
+    "iri" : "http://purl.org/dc/terms/hasPart",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "177",
+    "label" : {
+      "IRI-based" : "hasPart"
+    },
+    "domain" : "6",
+    "attributes" : [ "external", "object", "allValues" ],
+    "id" : "306"
+  }, {
+    "iri" : "http://purl.org/dc/terms/hasPart",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "177",
+    "label" : {
+      "IRI-based" : "hasPart"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "object", "allValues" ],
+    "id" : "307"
+  }, {
+    "iri" : "http://purl.org/dc/terms/hasPart",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "hasPart"
+    },
+    "domain" : "169",
+    "attributes" : [ "external", "object", "allValues" ],
+    "id" : "308"
+  }, {
+    "iri" : "http://purl.org/dc/terms/hasPart",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "120",
+    "label" : {
+      "IRI-based" : "hasPart"
+    },
+    "domain" : "8",
+    "attributes" : [ "external", "object", "allValues" ],
+    "id" : "309"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/eissn",
+    "equivalent" : [ "263" ],
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "281",
+    "label" : {
+      "IRI-based" : "eissn"
+    },
+    "domain" : "13",
+    "attributes" : [ "datatype" ],
+    "id" : "310"
+  }, {
+    "iri" : "http://purl.org/dc/terms/hasPart",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "hasPart"
+    },
+    "domain" : "31",
+    "attributes" : [ "external", "object", "allValues" ],
+    "id" : "311"
+  }, {
+    "iri" : "http://prismstandard.org/namespaces/1.2/basic/issn",
+    "baseIri" : "http://prismstandard.org/namespaces/1.2/basic",
+    "range" : "312",
+    "label" : {
+      "IRI-based" : "issn"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "269"
+  }, {
+    "iri" : "http://prismstandard.org/namespaces/1.2/basic/edition",
+    "baseIri" : "http://prismstandard.org/namespaces/1.2/basic",
+    "range" : "297",
+    "label" : {
+      "IRI-based" : "edition"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "118"
+  }, {
+    "iri" : "http://purl.org/NET/c4dm/event.owl#place",
+    "baseIri" : "http://purl.org/NET/c4dm/event.owl",
+    "range" : "24",
+    "annotations" : {
+      "scopeNote" : [ {
+        "identifier" : "scopeNote",
+        "language" : "en",
+        "value" : "Used to relate an event such as a conference to the geographical place where it happens, for example Paris.",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "place"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "object" ],
+    "id" : "313"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/gtin14",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "275",
+    "label" : {
+      "IRI-based" : "gtin14"
+    },
+    "domain" : "277",
+    "attributes" : [ "datatype" ],
+    "id" : "314"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/issue",
+    "equivalent" : [ "79" ],
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "265",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "issue",
+      "en" : "issue"
+    },
+    "domain" : "177",
+    "comment" : {
+      "en" : "An issue number"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "315"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/numVolumes",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "251",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "numVolumes",
+      "en" : "number of volumes"
+    },
+    "domain" : "13",
+    "comment" : {
+      "en" : "The number of volumes contained in a collection of documents (usually a series, periodical, etc.)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "316"
+  }, {
+    "iri" : "http://prismstandard.org/namespaces/1.2/basic/isbn",
+    "baseIri" : "http://prismstandard.org/namespaces/1.2/basic",
+    "range" : "300",
+    "label" : {
+      "IRI-based" : "isbn"
+    },
+    "domain" : "24",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "259"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/status",
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "287",
+    "annotations" : {
+      "editorialNote" : [ {
+        "identifier" : "editorialNote",
+        "language" : "en",
+        "value" : "We are not defining, using an enumeration, the range of the bibo:status to the defined list of bibo:DocumentStatus. We won't do it because we want people to be able to define new status if needed by some special usecases. Creating such an enumeration would restrict this to happen.",
+        "type" : "label"
+      } ],
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "status",
+      "en" : "status"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "The publication status of (typically academic) content."
+    },
+    "attributes" : [ "object" ],
+    "id" : "317"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/volume",
+    "equivalent" : [ "255" ],
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "284",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "volume",
+      "en" : "volume"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "A volume number"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "318"
+  }, {
+    "iri" : "http://purl.org/ontology/bibo/locator",
+    "equivalent" : [ "121" ],
+    "baseIri" : "http://purl.org/ontology/bibo",
+    "range" : "266",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://purl.org/ontology/bibo/",
+        "type" : "label"
+      } ],
+      "term_status" : [ {
+        "identifier" : "term_status",
+        "language" : "undefined",
+        "value" : "stable",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "locator",
+      "en" : "locator"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "A description (often numeric) that locates an item within a containing document or collection."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "319"
+  } ]
+}
