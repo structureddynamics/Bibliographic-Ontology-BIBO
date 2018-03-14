@@ -2268,18 +2268,25 @@ Even if this link is not done in neither the FOAF nor the DCTERMS ontologies thi
     </owl:Class>
     
 
+    <!-- http://purl.org/ontology/bibo/Specification -->
+
+    <owl:Class rdf:about="&bibo;Specification">
+        <rdfs:label xml:lang="en">Specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&bibo;Document"/>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI">http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
+        <ns:term_status>testing</ns:term_status>
+        <rdfs:comment xml:lang="en">A document describing a specification.</rdfs:comment>
+    </owl:Class>
 
     <!-- http://purl.org/ontology/bibo/Standard -->
 
     <owl:Class rdf:about="&bibo;Standard">
         <rdfs:label xml:lang="en">Standard</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&bibo;Document"/>
+        <rdfs:subClassOf rdf:resource="&bibo;Specification"/>
         <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI">http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
         <ns:term_status>stable</ns:term_status>
-        <rdfs:comment xml:lang="en">A document describing a standard</rdfs:comment>
+        <rdfs:comment xml:lang="en">A document describing a standard: a specification organized through a standards body.</rdfs:comment>
     </owl:Class>
-    
-
 
     <!-- http://purl.org/ontology/bibo/Statute -->
 
