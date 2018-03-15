@@ -1541,7 +1541,15 @@ Even if this link is not done in neither the FOAF nor the DCTERMS ontologies thi
         <rdfs:comment xml:lang="en">A scholarly academic article, typically published in a journal.</rdfs:comment>
     </owl:Class>
     
+    <!-- http://purl.org/ontology/bibo/Agreement -->
 
+    <owl:Class rdf:about="&bibo;Agreement">
+        <rdfs:label xml:lang="en">Agreement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&bibo;LegalDocument"/>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI">http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="en">A generic written agreement.</rdfs:comment>
+        <ns:term_status>unstable</ns:term_status>
+    </owl:Class>
 
     <!-- http://purl.org/ontology/bibo/Article -->
 
