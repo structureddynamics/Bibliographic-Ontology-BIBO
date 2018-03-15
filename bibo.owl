@@ -2120,7 +2120,7 @@ Even if this link is not done in neither the FOAF nor the DCTERMS ontologies thi
 
     <owl:Class rdf:about="&bibo;Patent">
         <rdfs:label xml:lang="en">Patent</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&bibo;Document"/>
+        <rdfs:subClassOf rdf:resource="&bibo;LegalDocument"/>
         <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI">http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
         <rdfs:comment xml:lang="en">A document describing the exclusive right granted by a government to an inventor to manufacture, use, or sell an invention for a certain number of years.</rdfs:comment>
         <ns:term_status>stable</ns:term_status>
