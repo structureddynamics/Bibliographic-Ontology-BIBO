@@ -1670,7 +1670,6 @@ Even if this link is not done in neither the FOAF nor the DCTERMS ontologies thi
     </owl:Class>
     
 
-
     <!-- http://purl.org/ontology/bibo/CollectedDocument -->
 
     <owl:Class rdf:about="&bibo;CollectedDocument">
@@ -1729,7 +1728,15 @@ Even if this link is not done in neither the FOAF nor the DCTERMS ontologies thi
         <rdfs:comment xml:lang="en">A meeting for consultation or discussion.</rdfs:comment>
     </owl:Class>
     
+    <!-- http://purl.org/ontology/bibo/Contract -->
 
+    <owl:Class rdf:about="&bibo;Contract">
+        <rdfs:label xml:lang="en">Contract</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&bibo;Agreement"/>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI">http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="en">A legal contract.</rdfs:comment>
+        <ns:term_status>unstable</ns:term_status>
+    </owl:Class>
 
     <!-- http://purl.org/ontology/bibo/CourtReporter -->
 
