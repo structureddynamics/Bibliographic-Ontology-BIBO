@@ -1,0 +1,1731 @@
+<http://purl.org/ontology/bibo/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/ontology/bibo/> <http://purl.org/dc/terms/creator> <http://purl.org/ontology/bibo/bdarcus> .
+<http://purl.org/ontology/bibo/> <http://purl.org/dc/terms/creator> <http://purl.org/ontology/bibo/fgiasson> .
+<http://purl.org/ontology/bibo/> <http://purl.org/dc/terms/description> "The Bibliographic Ontology describes\nbibliographic things on the semantic Web in RDF.  This ontology can be\nused as a citation ontology, as a document classification ontology, or\nsimply as a way to describe any kind of document in RDF. It has been\ninspired by many existing document description metadata formats, and\ncan be used as a common ground for converting other bibliographic data\nsources."@en .
+<http://purl.org/ontology/bibo/> <http://purl.org/dc/terms/title> "The Bibliographic Ontology" .
+<http://purl.org/ontology/bibo/> <http://www.w3.org/2002/07/owl#versionInfo> "http://purl.org/ontology/bibo/1.3/" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/identifier
+<http://purl.org/dc/terms/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#deprecated
+<http://www.w3.org/2002/07/owl#deprecated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/06/sw-vocab-status/ns#term_status
+<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#changeNote
+<http://www.w3.org/2004/02/skos/core#changeNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#editorialNote
+<http://www.w3.org/2004/02/skos/core#editorialNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#example
+<http://www.w3.org/2004/02/skos/core#example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#historyNote
+<http://www.w3.org/2004/02/skos/core#historyNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#note
+<http://www.w3.org/2004/02/skos/core#note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#scopeNote
+<http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/NET/c4dm/event.owl#agent
+<http://purl.org/NET/c4dm/event.owl#agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/NET/c4dm/event.owl#agent> <http://www.w3.org/2004/02/skos/core#changeNote> "Used to link an agent (a person) to an event (a conference, an hearing, etc.)"@en .
+# 
+# http://purl.org/NET/c4dm/event.owl#place
+<http://purl.org/NET/c4dm/event.owl#place> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/NET/c4dm/event.owl#place> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to relate an event such as a conference to the geographical place where it happens, for example Paris."@en .
+# 
+# http://purl.org/NET/c4dm/event.owl#produced_in
+<http://purl.org/NET/c4dm/event.owl#produced_in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/NET/c4dm/event.owl#product
+<http://purl.org/NET/c4dm/event.owl#product> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/NET/c4dm/event.owl#product> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to link an event such as a conference to an outcome (a product) of that event, for example, an article, a proceeding, etc."@en .
+# 
+# http://purl.org/NET/c4dm/event.owl#sub_event
+<http://purl.org/NET/c4dm/event.owl#sub_event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/NET/c4dm/event.owl#sub_event> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to link big events with smaller events such as workshops that happen in the context of a conference."@en .
+# 
+# http://purl.org/NET/c4dm/event.owl#time
+<http://purl.org/NET/c4dm/event.owl#time> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/NET/c4dm/event.owl#time> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to describe the timing of an event. For example, when a conference starts and stops."@en .
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to link a bibliographic item to one of its contributor: can be an author, an editor, a publisher, etc."@en .
+# 
+# http://purl.org/dc/terms/format
+<http://purl.org/dc/terms/format> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/format> <http://www.w3.org/2004/02/skos/core#example> "<dcterms:format>\n   <dcterms:MediaTypeOrExtent>\n     <rdf:value>text/html</rdf:value>\n     <rdfs:label>HTML</rdfs:label>\n   </dcterms:MediaTypeOrExtent>\n </dcterms:format>"@en .
+<http://purl.org/dc/terms/format> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to describe the format of a bibliographic resource."@en .
+# 
+# http://purl.org/dc/terms/hasPart
+<http://purl.org/dc/terms/hasPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/dc/terms/isPartOf
+<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/dc/terms/isReferencedBy
+<http://purl.org/dc/terms/isReferencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/isReferencedBy> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to relate a reference citation to a bibliographic resource."@en .
+# 
+# http://purl.org/dc/terms/isVersionOf
+<http://purl.org/dc/terms/isVersionOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/dc/terms/language
+<http://purl.org/dc/terms/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/language> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to link a bibliographic resource to the language used to express it."@en .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to link a bibliographic item to its publisher."@en .
+# 
+# http://purl.org/dc/terms/references
+<http://purl.org/dc/terms/references> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/dc/terms/relation
+<http://purl.org/dc/terms/relation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/dc/terms/rights
+<http://purl.org/dc/terms/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/rights> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to describe rights related to a bibliographic resource."@en .
+# 
+# http://purl.org/dc/terms/subject
+<http://purl.org/dc/terms/subject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/subject> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to describe the subject of a bibliographic resource."@en .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://purl.org/ontology/bibo/affirmedBy
+<http://purl.org/ontology/bibo/affirmedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/affirmedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/subsequentLegalDecision> .
+<http://purl.org/ontology/bibo/affirmedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/LegalDecision> .
+<http://purl.org/ontology/bibo/affirmedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/bibo/LegalDecision> .
+<http://purl.org/ontology/bibo/affirmedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "A legal decision that affirms a ruling."@en .
+<http://purl.org/ontology/bibo/affirmedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://purl.org/ontology/bibo/annotates
+<http://purl.org/ontology/bibo/annotates> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/annotates> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> .
+<http://purl.org/ontology/bibo/annotates> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Note> .
+<http://purl.org/ontology/bibo/annotates> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://purl.org/ontology/bibo/annotates> <http://www.w3.org/2000/01/rdf-schema#comment> "Critical or explanatory note for a Document."@en .
+<http://purl.org/ontology/bibo/annotates> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/annotates> <http://www.w3.org/2000/01/rdf-schema#label> "annotates"@en .
+<http://purl.org/ontology/bibo/annotates> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/authorList
+<http://purl.org/ontology/bibo/authorList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/authorList> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/contributorList> .
+<http://purl.org/ontology/bibo/authorList> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/authorList> <http://www.w3.org/2000/01/rdf-schema#range> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/authorList> <http://www.w3.org/2000/01/rdf-schema#comment> "An ordered list of authors. Normally, this list is seen as a priority list that order authors by importance."@en .
+<http://purl.org/ontology/bibo/authorList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/authorList> <http://www.w3.org/2000/01/rdf-schema#label> "list of authors"@en .
+<http://purl.org/ontology/bibo/authorList> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/citedBy
+<http://purl.org/ontology/bibo/citedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/citedBy> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ontology/bibo/cites> .
+<http://purl.org/ontology/bibo/citedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/citedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/citedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a document to another document that cites the\nfirst document."@en .
+<http://purl.org/ontology/bibo/citedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/citedBy> <http://www.w3.org/2000/01/rdf-schema#label> "cited by"@en .
+<http://purl.org/ontology/bibo/citedBy> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/cites
+<http://purl.org/ontology/bibo/cites> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/cites> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/references> .
+<http://purl.org/ontology/bibo/cites> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/cites> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/cites> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a document to another document that is cited\nby the first document as reference, comment, review, quotation or for\nanother purpose."@en .
+<http://purl.org/ontology/bibo/cites> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/cites> <http://www.w3.org/2000/01/rdf-schema#label> "cites"@en .
+<http://purl.org/ontology/bibo/cites> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/contributorList
+<http://purl.org/ontology/bibo/contributorList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/contributorList> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/contributorList> <http://www.w3.org/2000/01/rdf-schema#range> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid4 <http://www.w3.org/2002/07/owl#unionOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/contributorList> <http://www.w3.org/2000/01/rdf-schema#comment> "An ordered list of contributors. Normally, this list is seen as a priority list that order contributors by importance."@en .
+<http://purl.org/ontology/bibo/contributorList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/contributorList> <http://www.w3.org/2000/01/rdf-schema#label> "list of contributors"@en .
+<http://purl.org/ontology/bibo/contributorList> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/court
+<http://purl.org/ontology/bibo/court> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/court> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/LegalDocument> .
+<http://purl.org/ontology/bibo/court> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Organization> .
+<http://purl.org/ontology/bibo/court> <http://www.w3.org/2000/01/rdf-schema#comment> "A court associated with a legal document; for example, that which issues a decision."@en .
+<http://purl.org/ontology/bibo/court> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/court> <http://www.w3.org/2000/01/rdf-schema#label> "court"@en .
+<http://purl.org/ontology/bibo/court> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/degree
+<http://purl.org/ontology/bibo/degree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/degree> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Thesis> .
+<http://purl.org/ontology/bibo/degree> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/bibo/ThesisDegree> .
+<http://purl.org/ontology/bibo/degree> <http://www.w3.org/2000/01/rdf-schema#comment> "The thesis degree."@en .
+<http://purl.org/ontology/bibo/degree> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/degree> <http://www.w3.org/2000/01/rdf-schema#label> "degree"@en .
+<http://purl.org/ontology/bibo/degree> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://purl.org/ontology/bibo/degree> <http://www.w3.org/2004/02/skos/core#editorialNote> "We are not defining, using an enumeration, the range of the bibo:degree to the defined list of bibo:ThesisDegree. We won't do it because we want people to be able to define new degress if needed by some special usecases. Creating such an enumeration would restrict this to happen."@en .
+# 
+# http://purl.org/ontology/bibo/director
+<http://purl.org/ontology/bibo/director> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/director> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/contributor> .
+<http://purl.org/ontology/bibo/director> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/AudioVisualDocument> .
+<http://purl.org/ontology/bibo/director> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/director> <http://www.w3.org/2000/01/rdf-schema#comment> "A Film director."@en .
+<http://purl.org/ontology/bibo/director> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/director> <http://www.w3.org/2000/01/rdf-schema#label> "director" .
+<http://purl.org/ontology/bibo/director> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/distributor
+<http://purl.org/ontology/bibo/distributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/distributor> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid7 <http://www.w3.org/2002/07/owl#unionOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/distributor> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/distributor> <http://www.w3.org/2000/01/rdf-schema#comment> "Distributor of a document or a collection of documents."@en .
+<http://purl.org/ontology/bibo/distributor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/distributor> <http://www.w3.org/2000/01/rdf-schema#label> "distributor"@en .
+<http://purl.org/ontology/bibo/distributor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/editor
+<http://purl.org/ontology/bibo/editor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/editor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/contributor> .
+<http://purl.org/ontology/bibo/editor> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid10 <http://www.w3.org/2002/07/owl#unionOf> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/editor> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/editor> <http://www.w3.org/2000/01/rdf-schema#comment> "A person having managerial and sometimes policy-making responsibility for the editorial part of a publishing firm or of a newspaper, magazine, or other publication."@en .
+<http://purl.org/ontology/bibo/editor> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/editor> <http://www.w3.org/2000/01/rdf-schema#label> "editor" .
+<http://purl.org/ontology/bibo/editor> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/editorList
+<http://purl.org/ontology/bibo/editorList> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/editorList> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/contributorList> .
+<http://purl.org/ontology/bibo/editorList> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/editorList> <http://www.w3.org/2000/01/rdf-schema#range> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid13 <http://www.w3.org/2002/07/owl#unionOf> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/editorList> <http://www.w3.org/2000/01/rdf-schema#comment> "An ordered list of editors. Normally, this list is seen as a priority list that order editors by importance."@en .
+<http://purl.org/ontology/bibo/editorList> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/editorList> <http://www.w3.org/2000/01/rdf-schema#label> "list of editors"@en .
+<http://purl.org/ontology/bibo/editorList> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/interviewee
+<http://purl.org/ontology/bibo/interviewee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/interviewee> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/contributor> .
+<http://purl.org/ontology/bibo/interviewee> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/interviewee> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/interviewee> <http://www.w3.org/2000/01/rdf-schema#comment> "An agent that is interviewed by another agent."@en .
+<http://purl.org/ontology/bibo/interviewee> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/interviewee> <http://www.w3.org/2000/01/rdf-schema#label> "interviewee" .
+<http://purl.org/ontology/bibo/interviewee> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/interviewer
+<http://purl.org/ontology/bibo/interviewer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/interviewer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/contributor> .
+<http://purl.org/ontology/bibo/interviewer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/interviewer> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/interviewer> <http://www.w3.org/2000/01/rdf-schema#comment> "An agent that interview another agent."@en .
+<http://purl.org/ontology/bibo/interviewer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/interviewer> <http://www.w3.org/2000/01/rdf-schema#label> "interviewer" .
+<http://purl.org/ontology/bibo/interviewer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/issuer
+<http://purl.org/ontology/bibo/issuer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/issuer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/publisher> .
+<http://purl.org/ontology/bibo/issuer> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid16 <http://www.w3.org/2002/07/owl#unionOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/issuer> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/issuer> <http://www.w3.org/2000/01/rdf-schema#comment> "An entity responsible for issuing often informally published documents such as press releases, reports, etc." .
+<http://purl.org/ontology/bibo/issuer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/issuer> <http://www.w3.org/2000/01/rdf-schema#label> "issuer" .
+<http://purl.org/ontology/bibo/issuer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/organizer
+<http://purl.org/ontology/bibo/organizer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/organizer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/bibo/organizer> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/organizer> <http://www.w3.org/2000/01/rdf-schema#comment> "The organizer of an event; includes conference organizers, but also government agencies or other bodies that are responsible for conducting hearings."@en .
+<http://purl.org/ontology/bibo/organizer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/organizer> <http://www.w3.org/2000/01/rdf-schema#label> "organizer"@en .
+<http://purl.org/ontology/bibo/organizer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/owner
+<http://purl.org/ontology/bibo/owner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/owner> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid19 <http://www.w3.org/2002/07/owl#unionOf> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/owner> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/owner> <http://www.w3.org/2000/01/rdf-schema#comment> "Owner of a document or a collection of documents."@en .
+<http://purl.org/ontology/bibo/owner> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/owner> <http://www.w3.org/2000/01/rdf-schema#label> "owner"@en .
+<http://purl.org/ontology/bibo/owner> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/performer
+<http://purl.org/ontology/bibo/performer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/performer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/contributor> .
+<http://purl.org/ontology/bibo/performer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Performance> .
+<http://purl.org/ontology/bibo/performer> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/performer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/performer> <http://www.w3.org/2000/01/rdf-schema#label> "performer" .
+<http://purl.org/ontology/bibo/performer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/presentedAt
+<http://purl.org/ontology/bibo/presentedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/presentedAt> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#produced_in> .
+<http://purl.org/ontology/bibo/presentedAt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/presentedAt> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/bibo/Event> .
+<http://purl.org/ontology/bibo/presentedAt> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a document to an event; for example, a paper to a conference."@en .
+<http://purl.org/ontology/bibo/presentedAt> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/presentedAt> <http://www.w3.org/2000/01/rdf-schema#label> "presented at"@en .
+<http://purl.org/ontology/bibo/presentedAt> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/presents
+<http://purl.org/ontology/bibo/presents> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/presents> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/NET/c4dm/event.owl#product> .
+<http://purl.org/ontology/bibo/presents> <http://www.w3.org/2002/07/owl#inverseOf> <http://purl.org/ontology/bibo/presentedAt> .
+<http://purl.org/ontology/bibo/presents> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Event> .
+<http://purl.org/ontology/bibo/presents> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/presents> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an event to associated documents; for example, conference to a paper."@en .
+<http://purl.org/ontology/bibo/presents> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/presents> <http://www.w3.org/2000/01/rdf-schema#label> "presents"@en .
+<http://purl.org/ontology/bibo/presents> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/producer
+<http://purl.org/ontology/bibo/producer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/producer> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid22 <http://www.w3.org/2002/07/owl#unionOf> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/producer> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/producer> <http://www.w3.org/2000/01/rdf-schema#comment> "Producer of a document or a collection of documents."@en .
+<http://purl.org/ontology/bibo/producer> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/producer> <http://www.w3.org/2000/01/rdf-schema#label> "producer"@en .
+<http://purl.org/ontology/bibo/producer> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/recipient
+<http://purl.org/ontology/bibo/recipient> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/recipient> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/PersonalCommunicationDocument> .
+<http://purl.org/ontology/bibo/recipient> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/recipient> <http://www.w3.org/2000/01/rdf-schema#comment> "An agent that receives a communication document."@en .
+<http://purl.org/ontology/bibo/recipient> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/recipient> <http://www.w3.org/2000/01/rdf-schema#label> "recipient" .
+<http://purl.org/ontology/bibo/recipient> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/reproducedIn
+<http://purl.org/ontology/bibo/reproducedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/reproducedIn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/isPartOf> .
+<http://purl.org/ontology/bibo/reproducedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/reproducedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/reproducedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "The resource in which another resource is reproduced."@en .
+<http://purl.org/ontology/bibo/reproducedIn> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/reproducedIn> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/reversedBy
+<http://purl.org/ontology/bibo/reversedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/reversedBy> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/subsequentLegalDecision> .
+<http://purl.org/ontology/bibo/reversedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/LegalDecision> .
+<http://purl.org/ontology/bibo/reversedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/bibo/LegalDecision> .
+<http://purl.org/ontology/bibo/reversedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "A legal decision that reverses a ruling."@en .
+<http://purl.org/ontology/bibo/reversedBy> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://purl.org/ontology/bibo/reviewOf
+<http://purl.org/ontology/bibo/reviewOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/reviewOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> .
+<http://purl.org/ontology/bibo/reviewOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/reviewOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://purl.org/ontology/bibo/reviewOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a review document to a reviewed thing (resource, item, etc.)."@en .
+<http://purl.org/ontology/bibo/reviewOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/reviewOf> <http://www.w3.org/2000/01/rdf-schema#label> "review of"@en .
+<http://purl.org/ontology/bibo/reviewOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/bibo/DocumentStatus> .
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/2000/01/rdf-schema#comment> "The publication status of (typically academic) content."@en .
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/2000/01/rdf-schema#label> "status"@en .
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/2004/02/skos/core#editorialNote> "We are not defining, using an enumeration, the range of the bibo:status to the defined list of bibo:DocumentStatus. We won't do it because we want people to be able to define new status if needed by some special usecases. Creating such an enumeration would restrict this to happen."@en .
+# 
+# http://purl.org/ontology/bibo/subsequentLegalDecision
+<http://purl.org/ontology/bibo/subsequentLegalDecision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/subsequentLegalDecision> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/isReferencedBy> .
+<http://purl.org/ontology/bibo/subsequentLegalDecision> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/LegalDecision> .
+<http://purl.org/ontology/bibo/subsequentLegalDecision> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/bibo/LegalDecision> .
+<http://purl.org/ontology/bibo/subsequentLegalDecision> <http://www.w3.org/2000/01/rdf-schema#comment> "A legal decision on appeal that takes action on a case (affirming it, reversing it, etc.)."@en .
+<http://purl.org/ontology/bibo/subsequentLegalDecision> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://purl.org/ontology/bibo/transcriptOf
+<http://purl.org/ontology/bibo/transcriptOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/transcriptOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/relation> .
+<http://purl.org/ontology/bibo/transcriptOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/transcriptOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://purl.org/ontology/bibo/transcriptOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a document to some transcribed original."@en .
+<http://purl.org/ontology/bibo/transcriptOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/transcriptOf> <http://www.w3.org/2000/01/rdf-schema#label> "transcript of"@en .
+<http://purl.org/ontology/bibo/transcriptOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/translationOf
+<http://purl.org/ontology/bibo/translationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/translationOf> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/isVersionOf> .
+<http://purl.org/ontology/bibo/translationOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/translationOf> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/translationOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a translated document to the original document."@en .
+<http://purl.org/ontology/bibo/translationOf> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/translationOf> <http://www.w3.org/2000/01/rdf-schema#label> "translation of"@en .
+<http://purl.org/ontology/bibo/translationOf> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/translator
+<http://purl.org/ontology/bibo/translator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/ontology/bibo/translator> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/contributor> .
+<http://purl.org/ontology/bibo/translator> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid25 <http://www.w3.org/2002/07/owl#unionOf> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/translator> <http://www.w3.org/2000/01/rdf-schema#range> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/translator> <http://www.w3.org/2000/01/rdf-schema#comment> "A person who translates written document from one language to another."@en .
+<http://purl.org/ontology/bibo/translator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/translator> <http://www.w3.org/2000/01/rdf-schema#label> "translator" .
+<http://purl.org/ontology/bibo/translator> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://www.w3.org/1999/02/22-rdf-syntax-ns#value
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#value> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to describe the content of a bibo:Document and othr bibliographic resouces.\n\nWe suggest to use this property instead of the deprecated \"bibo:content\" one."@en .
+# 
+# http://xmlns.com/foaf/0.1/based_near
+<http://xmlns.com/foaf/0.1/based_near> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xmlns.com/foaf/0.1/based_near> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to link an agent, related to bibliographic things, to a place where it is based near: can be a city, a monument, a building, etc."@en .
+# 
+# http://xmlns.com/foaf/0.1/depiction
+<http://xmlns.com/foaf/0.1/depiction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xmlns.com/foaf/0.1/depiction> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to link an agent with an image that depict it."@en .
+# 
+# http://xmlns.com/foaf/0.1/homepage
+<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://xmlns.com/foaf/0.1/homepage> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to link an agent to its homepage (which is a web page accessible using a URL)."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://prismstandard.org/namespaces/1.2/basic/doi
+<http://prismstandard.org/namespaces/1.2/basic/doi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://prismstandard.org/namespaces/1.2/basic/doi> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/ontology/bibo/doi> .
+# 
+# http://prismstandard.org/namespaces/1.2/basic/eIssn
+<http://prismstandard.org/namespaces/1.2/basic/eIssn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://prismstandard.org/namespaces/1.2/basic/eIssn> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/ontology/bibo/eissn> .
+# 
+# http://prismstandard.org/namespaces/1.2/basic/edition
+<http://prismstandard.org/namespaces/1.2/basic/edition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://prismstandard.org/namespaces/1.2/basic/edition> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/ontology/bibo/edition> .
+# 
+# http://prismstandard.org/namespaces/1.2/basic/endingPage
+<http://prismstandard.org/namespaces/1.2/basic/endingPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://prismstandard.org/namespaces/1.2/basic/endingPage> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/ontology/bibo/pageEnd> .
+# 
+# http://prismstandard.org/namespaces/1.2/basic/isbn
+<http://prismstandard.org/namespaces/1.2/basic/isbn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://prismstandard.org/namespaces/1.2/basic/isbn> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/ontology/bibo/isbn> .
+# 
+# http://prismstandard.org/namespaces/1.2/basic/issn
+<http://prismstandard.org/namespaces/1.2/basic/issn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://prismstandard.org/namespaces/1.2/basic/issn> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/ontology/bibo/issn> .
+# 
+# http://prismstandard.org/namespaces/1.2/basic/issue
+<http://prismstandard.org/namespaces/1.2/basic/issue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://prismstandard.org/namespaces/1.2/basic/issue> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/ontology/bibo/issue> .
+# 
+# http://prismstandard.org/namespaces/1.2/basic/number
+<http://prismstandard.org/namespaces/1.2/basic/number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://prismstandard.org/namespaces/1.2/basic/number> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/ontology/bibo/locator> .
+# 
+# http://prismstandard.org/namespaces/1.2/basic/startingPage
+<http://prismstandard.org/namespaces/1.2/basic/startingPage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://prismstandard.org/namespaces/1.2/basic/startingPage> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/ontology/bibo/pageStart> .
+# 
+# http://prismstandard.org/namespaces/1.2/basic/volume
+<http://prismstandard.org/namespaces/1.2/basic/volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://prismstandard.org/namespaces/1.2/basic/volume> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/ontology/bibo/volume> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/dc/terms/created> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/date> .
+<http://purl.org/dc/terms/created> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to describe the creation date of a bibliographic item"@en .
+# 
+# http://purl.org/dc/terms/date
+<http://purl.org/dc/terms/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/dc/terms/date> <http://www.w3.org/2004/02/skos/core#scopeNote> "Use to link a bibliographic item to the date of an event. Check dcterms:created and other for proper specializations for this property"@en .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/dc/terms/issued> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/dc/terms/date> .
+<http://purl.org/dc/terms/issued> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to describe the issue date of a bibliographic resource"@en .
+# 
+# http://purl.org/ontology/bibo/abstract
+<http://purl.org/ontology/bibo/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/abstract> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#Resource> .
+<http://purl.org/ontology/bibo/abstract> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/abstract> <http://www.w3.org/2000/01/rdf-schema#comment> "A summary of the resource." .
+<http://purl.org/ontology/bibo/abstract> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/abstract> <http://www.w3.org/2000/01/rdf-schema#label> "abstract" .
+<http://purl.org/ontology/bibo/abstract> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/argued
+<http://purl.org/ontology/bibo/argued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/argued> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/LegalDocument> .
+<http://purl.org/ontology/bibo/argued> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/argued> <http://www.w3.org/2000/01/rdf-schema#comment> "The date on which a legal case is argued before a court. Date is of format xsd:date"@en .
+<http://purl.org/ontology/bibo/argued> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/argued> <http://www.w3.org/2000/01/rdf-schema#label> "date argued"@en .
+<http://purl.org/ontology/bibo/argued> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/asin
+<http://purl.org/ontology/bibo/asin> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/asin> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+<http://purl.org/ontology/bibo/asin> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid28 <http://www.w3.org/2002/07/owl#unionOf> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/asin> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/chapter
+<http://purl.org/ontology/bibo/chapter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/chapter> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/locator> .
+<http://purl.org/ontology/bibo/chapter> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/BookSection> .
+<http://purl.org/ontology/bibo/chapter> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/chapter> <http://www.w3.org/2000/01/rdf-schema#comment> "An chapter number"@en .
+<http://purl.org/ontology/bibo/chapter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/chapter> <http://www.w3.org/2000/01/rdf-schema#label> "chapter"@en .
+<http://purl.org/ontology/bibo/chapter> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/coden
+<http://purl.org/ontology/bibo/coden> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/coden> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+<http://purl.org/ontology/bibo/coden> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid31 <http://www.w3.org/2002/07/owl#unionOf> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/coden> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/content
+<http://purl.org/ontology/bibo/content> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/content> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/content> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/content> <http://www.w3.org/2000/01/rdf-schema#comment> "This property is for a plain-text rendering of the content of a Document. While the plain-text content of an entire document could be described by this property."@en .
+<http://purl.org/ontology/bibo/content> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/content> <http://www.w3.org/2000/01/rdf-schema#label> "content"@en .
+<http://purl.org/ontology/bibo/content> <http://www.w3.org/2002/07/owl#deprecated> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://purl.org/ontology/bibo/content> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://purl.org/ontology/bibo/content> <http://www.w3.org/2004/02/skos/core#historyNote> "bibo:content has been deprecated; we recommend to use \"rdf:value\" for this purpose. Here is the rational behind this choice: http://www.w3.org/TR/2004/REC-rdf-primer-20040210/#rdfvalue"@en .
+# 
+# http://purl.org/ontology/bibo/doi
+<http://purl.org/ontology/bibo/doi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/doi> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+<http://purl.org/ontology/bibo/doi> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid34 <http://www.w3.org/2002/07/owl#unionOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/doi> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/eanucc13
+<http://purl.org/ontology/bibo/eanucc13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/eanucc13> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+<http://purl.org/ontology/bibo/eanucc13> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid37 <http://www.w3.org/2002/07/owl#unionOf> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/eanucc13> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/edition
+<http://purl.org/ontology/bibo/edition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/edition> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/edition> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/edition> <http://www.w3.org/2000/01/rdf-schema#comment> "The name defining a special edition of a document. Normally its a literal value composed of a version number and words."@en .
+<http://purl.org/ontology/bibo/edition> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/edition> <http://www.w3.org/2000/01/rdf-schema#label> "edition"@en .
+<http://purl.org/ontology/bibo/edition> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/eissn
+<http://purl.org/ontology/bibo/eissn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/eissn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+<http://purl.org/ontology/bibo/eissn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Collection> .
+<http://purl.org/ontology/bibo/eissn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/gtin14
+<http://purl.org/ontology/bibo/gtin14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/gtin14> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+<http://purl.org/ontology/bibo/gtin14> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid40 <http://www.w3.org/2002/07/owl#unionOf> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/gtin14> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/handle
+<http://purl.org/ontology/bibo/handle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/handle> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+<http://purl.org/ontology/bibo/handle> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid43 <http://www.w3.org/2002/07/owl#unionOf> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/handle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/identifier
+<http://purl.org/ontology/bibo/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/identifier> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid46 <http://www.w3.org/2002/07/owl#unionOf> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/identifier> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/isbn
+<http://purl.org/ontology/bibo/isbn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/isbn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+# 
+# http://purl.org/ontology/bibo/isbn10
+<http://purl.org/ontology/bibo/isbn10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/isbn10> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/isbn> .
+<http://purl.org/ontology/bibo/isbn10> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid49 <http://www.w3.org/2002/07/owl#unionOf> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/isbn10> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/isbn13
+<http://purl.org/ontology/bibo/isbn13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/isbn13> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/isbn> .
+<http://purl.org/ontology/bibo/isbn13> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid52 <http://www.w3.org/2002/07/owl#unionOf> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/isbn13> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/issn
+<http://purl.org/ontology/bibo/issn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/issn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+<http://purl.org/ontology/bibo/issn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Collection> .
+<http://purl.org/ontology/bibo/issn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/issue
+<http://purl.org/ontology/bibo/issue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/issue> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/locator> .
+<http://purl.org/ontology/bibo/issue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Issue> .
+<http://purl.org/ontology/bibo/issue> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/issue> <http://www.w3.org/2000/01/rdf-schema#comment> "An issue number"@en .
+<http://purl.org/ontology/bibo/issue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/issue> <http://www.w3.org/2000/01/rdf-schema#label> "issue"@en .
+<http://purl.org/ontology/bibo/issue> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/lccn
+<http://purl.org/ontology/bibo/lccn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/lccn> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+<http://purl.org/ontology/bibo/lccn> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid55 <http://www.w3.org/2002/07/owl#unionOf> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/lccn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/locator
+<http://purl.org/ontology/bibo/locator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/locator> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/locator> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/locator> <http://www.w3.org/2000/01/rdf-schema#comment> "A description (often numeric) that locates an item within a containing document or collection."@en .
+<http://purl.org/ontology/bibo/locator> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/locator> <http://www.w3.org/2000/01/rdf-schema#label> "locator"@en .
+<http://purl.org/ontology/bibo/locator> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/numPages
+<http://purl.org/ontology/bibo/numPages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/numPages> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/numPages> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/numPages> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of pages contained in a document"@en .
+<http://purl.org/ontology/bibo/numPages> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/numPages> <http://www.w3.org/2000/01/rdf-schema#label> "number of pages"@en .
+<http://purl.org/ontology/bibo/numPages> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/numVolumes
+<http://purl.org/ontology/bibo/numVolumes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/numVolumes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Collection> .
+<http://purl.org/ontology/bibo/numVolumes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/numVolumes> <http://www.w3.org/2000/01/rdf-schema#comment> "The number of volumes contained in a collection of documents (usually a series, periodical, etc.)."@en .
+<http://purl.org/ontology/bibo/numVolumes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/numVolumes> <http://www.w3.org/2000/01/rdf-schema#label> "number of volumes"@en .
+<http://purl.org/ontology/bibo/numVolumes> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/number
+<http://purl.org/ontology/bibo/number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/number> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/number> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/number> <http://www.w3.org/2000/01/rdf-schema#comment> "A generic item or document number. Not to be confused with issue number."@en .
+<http://purl.org/ontology/bibo/number> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/number> <http://www.w3.org/2000/01/rdf-schema#label> "number"@en .
+<http://purl.org/ontology/bibo/number> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/oclcnum
+<http://purl.org/ontology/bibo/oclcnum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/oclcnum> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+<http://purl.org/ontology/bibo/oclcnum> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid58 <http://www.w3.org/2002/07/owl#unionOf> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/oclcnum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/pageEnd
+<http://purl.org/ontology/bibo/pageEnd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/pageEnd> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/locator> .
+<http://purl.org/ontology/bibo/pageEnd> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/pageEnd> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/pageEnd> <http://www.w3.org/2000/01/rdf-schema#comment> "Ending page number within a continuous page range."@en .
+<http://purl.org/ontology/bibo/pageEnd> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/pageEnd> <http://www.w3.org/2000/01/rdf-schema#label> "page end"@en .
+<http://purl.org/ontology/bibo/pageEnd> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/pageStart
+<http://purl.org/ontology/bibo/pageStart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/pageStart> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/locator> .
+<http://purl.org/ontology/bibo/pageStart> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/pageStart> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/pageStart> <http://www.w3.org/2000/01/rdf-schema#comment> "Starting page number within a continuous page range."@en .
+<http://purl.org/ontology/bibo/pageStart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/pageStart> <http://www.w3.org/2000/01/rdf-schema#label> "page start"@en .
+<http://purl.org/ontology/bibo/pageStart> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/pages
+<http://purl.org/ontology/bibo/pages> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/pages> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/locator> .
+<http://purl.org/ontology/bibo/pages> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/pages> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/pages> <http://www.w3.org/2000/01/rdf-schema#comment> "A string of non-contiguous page spans that locate a Document within a Collection. Example: 23-25, 34, 54-56. For continuous page ranges, use the pageStart and pageEnd properties."@en .
+<http://purl.org/ontology/bibo/pages> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/pages> <http://www.w3.org/2000/01/rdf-schema#label> "pages"@en .
+<http://purl.org/ontology/bibo/pages> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/pmid
+<http://purl.org/ontology/bibo/pmid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/pmid> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+<http://purl.org/ontology/bibo/pmid> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid61 <http://www.w3.org/2002/07/owl#unionOf> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/pmid> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/prefixName
+<http://purl.org/ontology/bibo/prefixName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/prefixName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/prefixName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/prefixName> <http://www.w3.org/2000/01/rdf-schema#comment> "The prefix of a name"@en .
+<http://purl.org/ontology/bibo/prefixName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/prefixName> <http://www.w3.org/2000/01/rdf-schema#label> "prefix name"@en .
+<http://purl.org/ontology/bibo/prefixName> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/section
+<http://purl.org/ontology/bibo/section> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/section> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/locator> .
+<http://purl.org/ontology/bibo/section> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/section> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/section> <http://www.w3.org/2000/01/rdf-schema#comment> "A section number"@en .
+<http://purl.org/ontology/bibo/section> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/section> <http://www.w3.org/2000/01/rdf-schema#label> "section"@en .
+<http://purl.org/ontology/bibo/section> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<http://purl.org/ontology/bibo/section> <http://www.w3.org/2004/02/skos/core#example> "Di Rado, Alicia. 1995. Trekking through college: Classes explore\nmodern society using the world of Star trek. Los Angeles Times, March\n15, sec. A, p. 3."@en .
+# 
+# http://purl.org/ontology/bibo/shortDescription
+<http://purl.org/ontology/bibo/shortDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/shortDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/shortDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/shortTitle
+<http://purl.org/ontology/bibo/shortTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/shortTitle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/shortTitle> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/shortTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "The abbreviation of a title."@en .
+<http://purl.org/ontology/bibo/shortTitle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/shortTitle> <http://www.w3.org/2000/01/rdf-schema#label> "short title"@en .
+<http://purl.org/ontology/bibo/shortTitle> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/sici
+<http://purl.org/ontology/bibo/sici> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/sici> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+<http://purl.org/ontology/bibo/sici> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid64 <http://www.w3.org/2002/07/owl#unionOf> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/sici> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/suffixName
+<http://purl.org/ontology/bibo/suffixName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/suffixName> <http://www.w3.org/2000/01/rdf-schema#domain> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/ontology/bibo/suffixName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/suffixName> <http://www.w3.org/2000/01/rdf-schema#comment> "The suffix of a name"@en .
+<http://purl.org/ontology/bibo/suffixName> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/suffixName> <http://www.w3.org/2000/01/rdf-schema#label> "suffix name"@en .
+<http://purl.org/ontology/bibo/suffixName> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/upc
+<http://purl.org/ontology/bibo/upc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/upc> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+<http://purl.org/ontology/bibo/upc> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid67 <http://www.w3.org/2002/07/owl#unionOf> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/upc> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+# 
+# http://purl.org/ontology/bibo/uri
+<http://purl.org/ontology/bibo/uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/uri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/identifier> .
+<http://purl.org/ontology/bibo/uri> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid70 <http://www.w3.org/2002/07/owl#unionOf> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/uri> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/uri> <http://www.w3.org/2000/01/rdf-schema#comment> "Universal Resource Identifier of a document"@en .
+<http://purl.org/ontology/bibo/uri> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/uri> <http://www.w3.org/2000/01/rdf-schema#label> "uri"@en .
+<http://purl.org/ontology/bibo/uri> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/volume
+<http://purl.org/ontology/bibo/volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/ontology/bibo/volume> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/ontology/bibo/locator> .
+<http://purl.org/ontology/bibo/volume> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/volume> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://purl.org/ontology/bibo/volume> <http://www.w3.org/2000/01/rdf-schema#comment> "A volume number"@en .
+<http://purl.org/ontology/bibo/volume> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/volume> <http://www.w3.org/2000/01/rdf-schema#label> "volume"@en .
+<http://purl.org/ontology/bibo/volume> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://schemas.talis.com/2005/address/schema#localityName
+<http://schemas.talis.com/2005/address/schema#localityName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://schemas.talis.com/2005/address/schema#localityName> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to name the locality of a publisher, an author, etc."@en .
+# 
+# http://xmlns.com/foaf/0.1/family_name
+<http://xmlns.com/foaf/0.1/family_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xmlns.com/foaf/0.1/family_name> <http://www.w3.org/2004/02/skos/core#scopeNote> "This is the property we choose to use to describe the family name of a person related to a bibliographic resource."@en .
+# 
+# http://xmlns.com/foaf/0.1/givenname
+<http://xmlns.com/foaf/0.1/givenname> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://xmlns.com/foaf/0.1/givenname> <http://www.w3.org/2004/02/skos/core#scopeNote> "This is the property we choose to describe the given name of a Person related to a bibliographic resource. This is the first name of a person."@en .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/NET/c4dm/event.owl#Event
+<http://purl.org/NET/c4dm/event.owl#Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/NET/c4dm/event.owl#Event> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to describe bibliographic related events such as conferences, hearing, etc."@en .
+# 
+# http://purl.org/dc/terms/Agent
+<http://purl.org/dc/terms/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/terms/Agent> <http://www.w3.org/2002/07/owl#equivalentClass> <http://xmlns.com/foaf/0.1/Agent> .
+<http://purl.org/dc/terms/Agent> <http://www.w3.org/2004/02/skos/core#editorialNote> "BIBO assert that a dcterms:Agent is an equivalent class to foaf:Agent.\nThis means that all the individuals belonging to the foaf:Agent class\nalso belongs to the dcterms:Agent class. This way, dcterms:contributor\ncan be used on foaf:Person, foaf:Organization, foaf:Agent and foaf:Group.\nEven if this link is not done in neither the FOAF nor the DCTERMS ontologies this is a wide spread fact that is asserted by BIBO."@en .
+# 
+# http://purl.org/ontology/bibo/AcademicArticle
+<http://purl.org/ontology/bibo/AcademicArticle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/AcademicArticle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Article> .
+<http://purl.org/ontology/bibo/AcademicArticle> <http://www.w3.org/2000/01/rdf-schema#comment> "A scholarly academic article, typically published in a journal."@en .
+<http://purl.org/ontology/bibo/AcademicArticle> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/AcademicArticle> <http://www.w3.org/2000/01/rdf-schema#label> "Academic Article"@en .
+<http://purl.org/ontology/bibo/AcademicArticle> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Article
+<http://purl.org/ontology/bibo/Article> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Article> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/Article> <http://www.w3.org/2000/01/rdf-schema#comment> "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine."@en .
+<http://purl.org/ontology/bibo/Article> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Article> <http://www.w3.org/2000/01/rdf-schema#label> "Article"@en .
+<http://purl.org/ontology/bibo/Article> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/AudioDocument
+<http://purl.org/ontology/bibo/AudioDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/AudioDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/AudioDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "An audio document; aka record."@en .
+<http://purl.org/ontology/bibo/AudioDocument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/AudioDocument> <http://www.w3.org/2000/01/rdf-schema#label> "audio document"@en .
+<http://purl.org/ontology/bibo/AudioDocument> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/AudioVisualDocument
+<http://purl.org/ontology/bibo/AudioVisualDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/AudioVisualDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/AudioVisualDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "An audio-visual document; film, video, and so forth."@en .
+<http://purl.org/ontology/bibo/AudioVisualDocument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/AudioVisualDocument> <http://www.w3.org/2000/01/rdf-schema#label> "audio-visual document"@en .
+<http://purl.org/ontology/bibo/AudioVisualDocument> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Bill
+<http://purl.org/ontology/bibo/Bill> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Bill> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Legislation> .
+<http://purl.org/ontology/bibo/Bill> <http://www.w3.org/2000/01/rdf-schema#comment> "Draft legislation presented for discussion to a legal body."@en .
+<http://purl.org/ontology/bibo/Bill> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Bill> <http://www.w3.org/2000/01/rdf-schema#label> "Bill"@en .
+<http://purl.org/ontology/bibo/Bill> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Book
+<http://purl.org/ontology/bibo/Book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Book> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/Book> <http://www.w3.org/2000/01/rdf-schema#comment> "A written or printed work of fiction or nonfiction, usually on sheets of paper fastened or bound together within covers."@en .
+<http://purl.org/ontology/bibo/Book> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Book> <http://www.w3.org/2000/01/rdf-schema#label> "Book"@en .
+<http://purl.org/ontology/bibo/Book> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/BookSection
+<http://purl.org/ontology/bibo/BookSection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/BookSection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/DocumentPart> .
+<http://purl.org/ontology/bibo/BookSection> <http://www.w3.org/2000/01/rdf-schema#comment> "A section of a book."@en .
+<http://purl.org/ontology/bibo/BookSection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/BookSection> <http://www.w3.org/2000/01/rdf-schema#label> "Book Section"@en .
+<http://purl.org/ontology/bibo/BookSection> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/Brief
+<http://purl.org/ontology/bibo/Brief> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Brief> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/LegalCaseDocument> .
+<http://purl.org/ontology/bibo/Brief> <http://www.w3.org/2000/01/rdf-schema#comment> "A written argument submitted to a court."@en .
+<http://purl.org/ontology/bibo/Brief> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Brief> <http://www.w3.org/2000/01/rdf-schema#label> "Brief"@en .
+<http://purl.org/ontology/bibo/Brief> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/Chapter
+<http://purl.org/ontology/bibo/Chapter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Chapter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/BookSection> .
+<http://purl.org/ontology/bibo/Chapter> <http://www.w3.org/2000/01/rdf-schema#comment> "A chapter of a book."@en .
+<http://purl.org/ontology/bibo/Chapter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Chapter> <http://www.w3.org/2000/01/rdf-schema#label> "Chapter"@en .
+<http://purl.org/ontology/bibo/Chapter> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/Code
+<http://purl.org/ontology/bibo/Code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Code> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Periodical> .
+<http://purl.org/ontology/bibo/Code> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid73 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid73 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/ontology/bibo/Legislation> .
+<http://purl.org/ontology/bibo/Code> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid74 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid74 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/ontology/bibo/Code> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of statutes."@en .
+<http://purl.org/ontology/bibo/Code> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Code> <http://www.w3.org/2000/01/rdf-schema#label> "Code"@en .
+<http://purl.org/ontology/bibo/Code> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/CollectedDocument
+<http://purl.org/ontology/bibo/CollectedDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/CollectedDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/CollectedDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid75 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid75 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/CollectedDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid76 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid76 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/ontology/bibo/CollectedDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "A document that simultaneously contains other documents."@en .
+<http://purl.org/ontology/bibo/CollectedDocument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/CollectedDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Collected Document"@en .
+<http://purl.org/ontology/bibo/CollectedDocument> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Collection
+<http://purl.org/ontology/bibo/Collection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Collection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid77 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid77 <http://www.w3.org/2002/07/owl#allValuesFrom> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid78 <http://www.w3.org/2002/07/owl#unionOf> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Collection> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://purl.org/ontology/bibo/Document> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/ontology/bibo/Collection> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of Documents or Collections"@en .
+<http://purl.org/ontology/bibo/Collection> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Collection> <http://www.w3.org/2000/01/rdf-schema#label> "Collection"@en .
+<http://purl.org/ontology/bibo/Collection> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Conference
+<http://purl.org/ontology/bibo/Conference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Conference> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/bibo/Conference> <http://www.w3.org/2000/01/rdf-schema#comment> "A meeting for consultation or discussion."@en .
+<http://purl.org/ontology/bibo/Conference> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Conference> <http://www.w3.org/2000/01/rdf-schema#label> "Conference"@en .
+<http://purl.org/ontology/bibo/Conference> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/CourtReporter
+<http://purl.org/ontology/bibo/CourtReporter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/CourtReporter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Periodical> .
+<http://purl.org/ontology/bibo/CourtReporter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid81 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid81 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/ontology/bibo/LegalDocument> .
+<http://purl.org/ontology/bibo/CourtReporter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid82 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid82 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/ontology/bibo/CourtReporter> <http://www.w3.org/2000/01/rdf-schema#comment> "A collection of legal cases."@en .
+<http://purl.org/ontology/bibo/CourtReporter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/CourtReporter> <http://www.w3.org/2000/01/rdf-schema#label> "Court Reporter"@en .
+<http://purl.org/ontology/bibo/CourtReporter> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Document
+<http://purl.org/ontology/bibo/Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Document> <http://www.w3.org/2002/07/owl#equivalentClass> <http://xmlns.com/foaf/0.1/Document> .
+<http://purl.org/ontology/bibo/Document> <http://www.w3.org/2000/01/rdf-schema#comment> "A document (noun) is a bounded physical representation of body of information designed with the capacity (and usually intent) to communicate. A document may manifest symbolic, diagrammatic or sensory-representational information."@en .
+<http://purl.org/ontology/bibo/Document> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Document> <http://www.w3.org/2000/01/rdf-schema#label> "Document"@en .
+<http://purl.org/ontology/bibo/Document> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/DocumentPart
+<http://purl.org/ontology/bibo/DocumentPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/DocumentPart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/DocumentPart> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid83 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/isPartOf> .
+_:genid83 <http://www.w3.org/2002/07/owl#maxCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/ontology/bibo/DocumentPart> <http://www.w3.org/2000/01/rdf-schema#comment> "a distinct part of a larger document or collected document."@en .
+<http://purl.org/ontology/bibo/DocumentPart> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/DocumentPart> <http://www.w3.org/2000/01/rdf-schema#label> "document part"@en .
+<http://purl.org/ontology/bibo/DocumentPart> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/DocumentStatus
+<http://purl.org/ontology/bibo/DocumentStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/DocumentStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "The status of the publication of a document."@en .
+<http://purl.org/ontology/bibo/DocumentStatus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/DocumentStatus> <http://www.w3.org/2000/01/rdf-schema#label> "Document Status"@en .
+<http://purl.org/ontology/bibo/DocumentStatus> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/EditedBook
+<http://purl.org/ontology/bibo/EditedBook> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/EditedBook> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/CollectedDocument> .
+<http://purl.org/ontology/bibo/EditedBook> <http://www.w3.org/2000/01/rdf-schema#comment> "An edited book."@en .
+<http://purl.org/ontology/bibo/EditedBook> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/EditedBook> <http://www.w3.org/2000/01/rdf-schema#label> "Edited Book"@en .
+<http://purl.org/ontology/bibo/EditedBook> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Email
+<http://purl.org/ontology/bibo/Email> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Email> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/PersonalCommunicationDocument> .
+<http://purl.org/ontology/bibo/Email> <http://www.w3.org/2000/01/rdf-schema#comment> "A written communication addressed to a person or organization and transmitted electronically."@en .
+<http://purl.org/ontology/bibo/Email> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Email> <http://www.w3.org/2000/01/rdf-schema#label> "EMail"@en .
+<http://purl.org/ontology/bibo/Email> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Event
+<http://purl.org/ontology/bibo/Event> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://purl.org/ontology/bibo/Excerpt
+<http://purl.org/ontology/bibo/Excerpt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Excerpt> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/DocumentPart> .
+<http://purl.org/ontology/bibo/Excerpt> <http://www.w3.org/2000/01/rdf-schema#comment> "A passage selected from a larger work."@en .
+<http://purl.org/ontology/bibo/Excerpt> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Excerpt> <http://www.w3.org/2000/01/rdf-schema#label> "Excerpt"@en .
+<http://purl.org/ontology/bibo/Excerpt> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Film
+<http://purl.org/ontology/bibo/Film> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Film> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/AudioVisualDocument> .
+<http://purl.org/ontology/bibo/Film> <http://www.w3.org/2000/01/rdf-schema#comment> "aka movie."@en .
+<http://purl.org/ontology/bibo/Film> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Film> <http://www.w3.org/2000/01/rdf-schema#label> "Film"@en .
+<http://purl.org/ontology/bibo/Film> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Hearing
+<http://purl.org/ontology/bibo/Hearing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Hearing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/bibo/Hearing> <http://www.w3.org/2000/01/rdf-schema#comment> "An instance or a session in which testimony and arguments are presented, esp. before an official, as a judge in a lawsuit."@en .
+<http://purl.org/ontology/bibo/Hearing> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Hearing> <http://www.w3.org/2000/01/rdf-schema#label> "Hearing"@en .
+<http://purl.org/ontology/bibo/Hearing> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Image
+<http://purl.org/ontology/bibo/Image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Image> <http://www.w3.org/2002/07/owl#equivalentClass> <http://xmlns.com/foaf/0.1/Image> .
+<http://purl.org/ontology/bibo/Image> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/Image> <http://www.w3.org/2000/01/rdf-schema#comment> "A document that presents visual or diagrammatic information."@en .
+<http://purl.org/ontology/bibo/Image> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Image> <http://www.w3.org/2000/01/rdf-schema#label> "Image"@en .
+<http://purl.org/ontology/bibo/Image> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Interview
+<http://purl.org/ontology/bibo/Interview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Interview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/bibo/Interview> <http://www.w3.org/2000/01/rdf-schema#comment> "A formalized discussion between two or more people."@en .
+<http://purl.org/ontology/bibo/Interview> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Interview> <http://www.w3.org/2000/01/rdf-schema#label> "Interview"@en .
+<http://purl.org/ontology/bibo/Interview> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Issue
+<http://purl.org/ontology/bibo/Issue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Issue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/CollectedDocument> .
+<http://purl.org/ontology/bibo/Issue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid84 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid84 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/ontology/bibo/Article> .
+<http://purl.org/ontology/bibo/Issue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid85 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid85 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/ontology/bibo/Issue> <http://www.w3.org/2000/01/rdf-schema#comment> "something that is printed or published and distributed, esp. a given number of a periodical"@en .
+<http://purl.org/ontology/bibo/Issue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Issue> <http://www.w3.org/2000/01/rdf-schema#label> "Issue"@en .
+<http://purl.org/ontology/bibo/Issue> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Journal
+<http://purl.org/ontology/bibo/Journal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Journal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Periodical> .
+<http://purl.org/ontology/bibo/Journal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid86 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid86 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/ontology/bibo/Issue> .
+<http://purl.org/ontology/bibo/Journal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid87 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid87 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/ontology/bibo/Journal> <http://www.w3.org/2000/01/rdf-schema#comment> "A periodical of scholarly journal Articles."@en .
+<http://purl.org/ontology/bibo/Journal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Journal> <http://www.w3.org/2000/01/rdf-schema#label> "Journal"@en .
+<http://purl.org/ontology/bibo/Journal> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/LegalCaseDocument
+<http://purl.org/ontology/bibo/LegalCaseDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/LegalCaseDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/LegalDocument> .
+<http://purl.org/ontology/bibo/LegalCaseDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "A document accompanying a legal case."@en .
+<http://purl.org/ontology/bibo/LegalCaseDocument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/LegalCaseDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Legal Case Document"@en .
+<http://purl.org/ontology/bibo/LegalCaseDocument> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/LegalDecision
+<http://purl.org/ontology/bibo/LegalDecision> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/LegalDecision> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/LegalCaseDocument> .
+<http://purl.org/ontology/bibo/LegalDecision> <http://www.w3.org/2000/01/rdf-schema#comment> "A document containing an authoritative determination (as a decree or judgment) made after consideration of facts or law."@en .
+<http://purl.org/ontology/bibo/LegalDecision> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/LegalDecision> <http://www.w3.org/2000/01/rdf-schema#label> "Decision"@en .
+<http://purl.org/ontology/bibo/LegalDecision> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/LegalDocument
+<http://purl.org/ontology/bibo/LegalDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/LegalDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/LegalDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "A legal document; for example, a court decision, a brief, and so forth."@en .
+<http://purl.org/ontology/bibo/LegalDocument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/LegalDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Legal Document"@en .
+<http://purl.org/ontology/bibo/LegalDocument> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Legislation
+<http://purl.org/ontology/bibo/Legislation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Legislation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/LegalDocument> .
+<http://purl.org/ontology/bibo/Legislation> <http://www.w3.org/2000/01/rdf-schema#comment> "A legal document proposing or enacting a law or a group of laws."@en .
+<http://purl.org/ontology/bibo/Legislation> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Legislation> <http://www.w3.org/2000/01/rdf-schema#label> "Legislation"@en .
+<http://purl.org/ontology/bibo/Legislation> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/Letter
+<http://purl.org/ontology/bibo/Letter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Letter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/PersonalCommunicationDocument> .
+<http://purl.org/ontology/bibo/Letter> <http://www.w3.org/2000/01/rdf-schema#comment> "A written or printed communication addressed to a person or organization and usually transmitted by mail."@en .
+<http://purl.org/ontology/bibo/Letter> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Letter> <http://www.w3.org/2000/01/rdf-schema#label> "Letter"@en .
+<http://purl.org/ontology/bibo/Letter> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Magazine
+<http://purl.org/ontology/bibo/Magazine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Magazine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Periodical> .
+<http://purl.org/ontology/bibo/Magazine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid88 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid88 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/ontology/bibo/Issue> .
+<http://purl.org/ontology/bibo/Magazine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid89 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid89 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/ontology/bibo/Magazine> <http://www.w3.org/2000/01/rdf-schema#comment> "A periodical of magazine Articles. A magazine is a publication that is issued periodically, usually bound in a paper cover, and typically contains essays, stories, poems, etc., by many writers, and often photographs and drawings, frequently specializing in a particular subject or area, as hobbies, news, or sports."@en .
+<http://purl.org/ontology/bibo/Magazine> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Magazine> <http://www.w3.org/2000/01/rdf-schema#label> "Magazine"@en .
+<http://purl.org/ontology/bibo/Magazine> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Manual
+<http://purl.org/ontology/bibo/Manual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Manual> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/Manual> <http://www.w3.org/2000/01/rdf-schema#comment> "A small reference book, especially one giving instructions."@en .
+<http://purl.org/ontology/bibo/Manual> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Manual> <http://www.w3.org/2000/01/rdf-schema#label> "Manual"@en .
+<http://purl.org/ontology/bibo/Manual> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/Manuscript
+<http://purl.org/ontology/bibo/Manuscript> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Manuscript> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/Manuscript> <http://www.w3.org/2000/01/rdf-schema#comment> "An unpublished Document, which may also be submitted to a publisher for publication."@en .
+<http://purl.org/ontology/bibo/Manuscript> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Manuscript> <http://www.w3.org/2000/01/rdf-schema#label> "Manuscript"@en .
+<http://purl.org/ontology/bibo/Manuscript> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Map
+<http://purl.org/ontology/bibo/Map> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Map> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Image> .
+<http://purl.org/ontology/bibo/Map> <http://www.w3.org/2000/01/rdf-schema#comment> "A graphical depiction of geographic features."@en .
+<http://purl.org/ontology/bibo/Map> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Map> <http://www.w3.org/2000/01/rdf-schema#label> "Map"@en .
+<http://purl.org/ontology/bibo/Map> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/MultiVolumeBook
+<http://purl.org/ontology/bibo/MultiVolumeBook> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/MultiVolumeBook> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Collection> .
+<http://purl.org/ontology/bibo/MultiVolumeBook> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid90 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid90 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/ontology/bibo/Book> .
+<http://purl.org/ontology/bibo/MultiVolumeBook> <http://www.w3.org/2000/01/rdf-schema#comment> "A loose, thematic, collection of Documents, often Books."@en .
+<http://purl.org/ontology/bibo/MultiVolumeBook> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/MultiVolumeBook> <http://www.w3.org/2000/01/rdf-schema#label> "Multivolume Book"@en .
+<http://purl.org/ontology/bibo/MultiVolumeBook> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Newspaper
+<http://purl.org/ontology/bibo/Newspaper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Newspaper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Periodical> .
+<http://purl.org/ontology/bibo/Newspaper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid91 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid91 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/ontology/bibo/Issue> .
+<http://purl.org/ontology/bibo/Newspaper> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid92 .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid92 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid92 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/ontology/bibo/Newspaper> <http://www.w3.org/2000/01/rdf-schema#comment> "A periodical of documents, usually issued daily or weekly, containing current news, editorials, feature articles, and usually advertising."@en .
+<http://purl.org/ontology/bibo/Newspaper> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Newspaper> <http://www.w3.org/2000/01/rdf-schema#label> "Newspaper"@en .
+<http://purl.org/ontology/bibo/Newspaper> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Note
+<http://purl.org/ontology/bibo/Note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Note> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/Note> <http://www.w3.org/2000/01/rdf-schema#comment> "Notes or annotations about a resource."@en .
+<http://purl.org/ontology/bibo/Note> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Note> <http://www.w3.org/2000/01/rdf-schema#label> "Note"@en .
+<http://purl.org/ontology/bibo/Note> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Patent
+<http://purl.org/ontology/bibo/Patent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Patent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/Patent> <http://www.w3.org/2000/01/rdf-schema#comment> "A document describing the exclusive right granted by a government to an inventor to manufacture, use, or sell an invention for a certain number of years."@en .
+<http://purl.org/ontology/bibo/Patent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Patent> <http://www.w3.org/2000/01/rdf-schema#label> "Patent"@en .
+<http://purl.org/ontology/bibo/Patent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Performance
+<http://purl.org/ontology/bibo/Performance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Performance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/bibo/Performance> <http://www.w3.org/2000/01/rdf-schema#comment> "A public performance."@en .
+<http://purl.org/ontology/bibo/Performance> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Performance> <http://www.w3.org/2000/01/rdf-schema#label> "Performance"@en .
+<http://purl.org/ontology/bibo/Performance> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/Periodical
+<http://purl.org/ontology/bibo/Periodical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Periodical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Collection> .
+<http://purl.org/ontology/bibo/Periodical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid93 .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid93 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid93 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/ontology/bibo/Issue> .
+<http://purl.org/ontology/bibo/Periodical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid94 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid94 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/ontology/bibo/Periodical> <http://www.w3.org/2000/01/rdf-schema#comment> "A group of related documents issued at regular intervals."@en .
+<http://purl.org/ontology/bibo/Periodical> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Periodical> <http://www.w3.org/2000/01/rdf-schema#label> "Periodical"@en .
+<http://purl.org/ontology/bibo/Periodical> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/PersonalCommunication
+<http://purl.org/ontology/bibo/PersonalCommunication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/PersonalCommunication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/bibo/PersonalCommunication> <http://www.w3.org/2000/01/rdf-schema#comment> "A communication between an agent and one or more specific recipients."@en .
+<http://purl.org/ontology/bibo/PersonalCommunication> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/PersonalCommunication> <http://www.w3.org/2000/01/rdf-schema#label> "Personal Communication"@en .
+<http://purl.org/ontology/bibo/PersonalCommunication> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/PersonalCommunicationDocument
+<http://purl.org/ontology/bibo/PersonalCommunicationDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/PersonalCommunicationDocument> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/PersonalCommunicationDocument> <http://www.w3.org/2000/01/rdf-schema#comment> "A personal communication manifested in some document."@en .
+<http://purl.org/ontology/bibo/PersonalCommunicationDocument> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/PersonalCommunicationDocument> <http://www.w3.org/2000/01/rdf-schema#label> "Personal Communication Document"@en .
+<http://purl.org/ontology/bibo/PersonalCommunicationDocument> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Proceedings
+<http://purl.org/ontology/bibo/Proceedings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Proceedings> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Book> .
+<http://purl.org/ontology/bibo/Proceedings> <http://www.w3.org/2000/01/rdf-schema#comment> "A compilation of documents published from an event, such as a conference."@en .
+<http://purl.org/ontology/bibo/Proceedings> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Proceedings> <http://www.w3.org/2000/01/rdf-schema#label> "Proceedings"@en .
+<http://purl.org/ontology/bibo/Proceedings> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/Quote
+<http://purl.org/ontology/bibo/Quote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Quote> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Excerpt> .
+<http://purl.org/ontology/bibo/Quote> <http://www.w3.org/2000/01/rdf-schema#comment> "An excerpted collection of words."@en .
+<http://purl.org/ontology/bibo/Quote> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Quote> <http://www.w3.org/2000/01/rdf-schema#label> "Quote"@en .
+<http://purl.org/ontology/bibo/Quote> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/ReferenceSource
+<http://purl.org/ontology/bibo/ReferenceSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/ReferenceSource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/ReferenceSource> <http://www.w3.org/2000/01/rdf-schema#comment> "A document that presents authoritative reference information, such as a dictionary or encylopedia ."@en .
+<http://purl.org/ontology/bibo/ReferenceSource> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/ReferenceSource> <http://www.w3.org/2000/01/rdf-schema#label> "Reference Source"@en .
+<http://purl.org/ontology/bibo/ReferenceSource> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/Report
+<http://purl.org/ontology/bibo/Report> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Report> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/Report> <http://www.w3.org/2000/01/rdf-schema#comment> "A document describing an account or statement describing in detail an event, situation, or the like, usually as the result of observation, inquiry, etc.."@en .
+<http://purl.org/ontology/bibo/Report> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Report> <http://www.w3.org/2000/01/rdf-schema#label> "Report"@en .
+<http://purl.org/ontology/bibo/Report> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Series
+<http://purl.org/ontology/bibo/Series> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Series> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Collection> .
+<http://purl.org/ontology/bibo/Series> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid95 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid95 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/Series> <http://www.w3.org/2000/01/rdf-schema#comment> "A loose, thematic, collection of Documents, often Books."@en .
+<http://purl.org/ontology/bibo/Series> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Series> <http://www.w3.org/2000/01/rdf-schema#label> "Series"@en .
+<http://purl.org/ontology/bibo/Series> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Slide
+<http://purl.org/ontology/bibo/Slide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Slide> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/DocumentPart> .
+<http://purl.org/ontology/bibo/Slide> <http://www.w3.org/2000/01/rdf-schema#comment> "A slide in a slideshow"@en .
+<http://purl.org/ontology/bibo/Slide> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Slide> <http://www.w3.org/2000/01/rdf-schema#label> "Slide"@en .
+<http://purl.org/ontology/bibo/Slide> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/Slideshow
+<http://purl.org/ontology/bibo/Slideshow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Slideshow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/Slideshow> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid96 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid96 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/ontology/bibo/Slide> .
+<http://purl.org/ontology/bibo/Slideshow> <http://www.w3.org/2000/01/rdf-schema#comment> "A presentation of a series of slides, usually presented in front of an audience with written text and images."@en .
+<http://purl.org/ontology/bibo/Slideshow> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Slideshow> <http://www.w3.org/2000/01/rdf-schema#label> "Slideshow"@en .
+<http://purl.org/ontology/bibo/Slideshow> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Standard
+<http://purl.org/ontology/bibo/Standard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Standard> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/Standard> <http://www.w3.org/2000/01/rdf-schema#comment> "A document describing a standard"@en .
+<http://purl.org/ontology/bibo/Standard> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Standard> <http://www.w3.org/2000/01/rdf-schema#label> "Standard"@en .
+<http://purl.org/ontology/bibo/Standard> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Statute
+<http://purl.org/ontology/bibo/Statute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Statute> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Legislation> .
+<http://purl.org/ontology/bibo/Statute> <http://www.w3.org/2000/01/rdf-schema#comment> "A bill enacted into law."@en .
+<http://purl.org/ontology/bibo/Statute> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Statute> <http://www.w3.org/2000/01/rdf-schema#label> "Statute"@en .
+<http://purl.org/ontology/bibo/Statute> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Thesis
+<http://purl.org/ontology/bibo/Thesis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Thesis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/Thesis> <http://www.w3.org/2000/01/rdf-schema#comment> "A document created to summarize research findings associated with the completion of an academic degree."@en .
+<http://purl.org/ontology/bibo/Thesis> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Thesis> <http://www.w3.org/2000/01/rdf-schema#label> "Thesis"@en .
+<http://purl.org/ontology/bibo/Thesis> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/ThesisDegree
+<http://purl.org/ontology/bibo/ThesisDegree> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/ThesisDegree> <http://www.w3.org/2000/01/rdf-schema#comment> "The academic degree of a Thesis"@en .
+<http://purl.org/ontology/bibo/ThesisDegree> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/ThesisDegree> <http://www.w3.org/2000/01/rdf-schema#label> "Thesis degree"@en .
+<http://purl.org/ontology/bibo/ThesisDegree> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/Webpage
+<http://purl.org/ontology/bibo/Webpage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Webpage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Document> .
+<http://purl.org/ontology/bibo/Webpage> <http://www.w3.org/2000/01/rdf-schema#comment> "A web page is an online document available (at least initially) on the world wide web. A web page is written first and foremost to appear on the web, as distinct from other online resources such as books, manuscripts or audio documents which use the web primarily as a distribution mechanism alongside other more traditional methods such as print."@en .
+<http://purl.org/ontology/bibo/Webpage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Webpage> <http://www.w3.org/2000/01/rdf-schema#label> "Webpage"@en .
+<http://purl.org/ontology/bibo/Webpage> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/Website
+<http://purl.org/ontology/bibo/Website> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Website> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/ontology/bibo/Collection> .
+<http://purl.org/ontology/bibo/Website> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid97 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid97 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/ontology/bibo/Webpage> .
+<http://purl.org/ontology/bibo/Website> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid98 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/dc/terms/hasPart> .
+_:genid98 <http://www.w3.org/2002/07/owl#minCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/ontology/bibo/Website> <http://www.w3.org/2000/01/rdf-schema#comment> "A group of Webpages accessible on the Web."@en .
+<http://purl.org/ontology/bibo/Website> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Website> <http://www.w3.org/2000/01/rdf-schema#label> "Website"@en .
+<http://purl.org/ontology/bibo/Website> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+# 
+# http://purl.org/ontology/bibo/Workshop
+<http://purl.org/ontology/bibo/Workshop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Workshop> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/NET/c4dm/event.owl#Event> .
+<http://purl.org/ontology/bibo/Workshop> <http://www.w3.org/2000/01/rdf-schema#comment> "A seminar, discussion group, or the like, that emphasizes zxchange of ideas and the demonstration and application of techniques, skills, etc."@en .
+<http://purl.org/ontology/bibo/Workshop> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/Workshop> <http://www.w3.org/2000/01/rdf-schema#label> "Workshop"@en .
+<http://purl.org/ontology/bibo/Workshop> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://www.w3.org/1999/02/22-rdf-syntax-ns#List
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#List> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#Resource
+<http://www.w3.org/2000/01/rdf-schema#Resource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/2002/07/owl#Thing
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://xmlns.com/foaf/0.1/Agent
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xmlns.com/foaf/0.1/Agent> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to describe any \"agent\" related to bibliographic items. Such agents can be persons, organizations or groups of any kind."@en .
+# 
+# http://xmlns.com/foaf/0.1/Document
+<http://xmlns.com/foaf/0.1/Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://xmlns.com/foaf/0.1/Image
+<http://xmlns.com/foaf/0.1/Image> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://xmlns.com/foaf/0.1/Organization
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/2004/02/skos/core#scopeNote> "Ued to describe an organization related to bibliographic items such as a publishing company, etc."@en .
+# 
+# http://xmlns.com/foaf/0.1/Person
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://xmlns.com/foaf/0.1/Person> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to describe a Person related to a bibliographic ite such as an author, an editor, etc."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/ontology/bibo/bdarcus
+<http://purl.org/ontology/bibo/bdarcus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/ontology/bibo/bdarcus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/bibo/bdarcus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/ontology/bibo/bdarcus> <http://xmlns.com/foaf/0.1/name> "Bruce D'Arcus" .
+<http://purl.org/ontology/bibo/bdarcus> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/bdarcus> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://purl.org/net/darcusb/info#me"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://purl.org/ontology/bibo/fgiasson
+<http://purl.org/ontology/bibo/fgiasson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/ontology/bibo/fgiasson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/bibo/fgiasson> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<http://purl.org/ontology/bibo/fgiasson> <http://xmlns.com/foaf/0.1/name> "Frederick Giasson" .
+<http://purl.org/ontology/bibo/fgiasson> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://purl.org/ontology/bibo/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<http://purl.org/ontology/bibo/fgiasson> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "http://fgiasson.com/me/"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+# 
+# http://purl.org/ontology/bibo/degrees/ma
+<http://purl.org/ontology/bibo/degrees/ma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/ontology/bibo/degrees/ma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/ThesisDegree> .
+<http://purl.org/ontology/bibo/degrees/ma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/bibo/degrees/ma> <http://www.w3.org/2000/01/rdf-schema#comment> "masters degree in arts"@en .
+<http://purl.org/ontology/bibo/degrees/ma> <http://www.w3.org/2000/01/rdf-schema#label> "M.A."@en .
+<http://purl.org/ontology/bibo/degrees/ma> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/degrees/ms
+<http://purl.org/ontology/bibo/degrees/ms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/ontology/bibo/degrees/ms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/ThesisDegree> .
+<http://purl.org/ontology/bibo/degrees/ms> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/bibo/degrees/ms> <http://www.w3.org/2000/01/rdf-schema#comment> "masters degree in science"@en .
+<http://purl.org/ontology/bibo/degrees/ms> <http://www.w3.org/2000/01/rdf-schema#label> "M.S."@en .
+<http://purl.org/ontology/bibo/degrees/ms> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/degrees/phd
+<http://purl.org/ontology/bibo/degrees/phd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/ontology/bibo/degrees/phd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/ThesisDegree> .
+<http://purl.org/ontology/bibo/degrees/phd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/bibo/degrees/phd> <http://www.w3.org/2000/01/rdf-schema#comment> "PhD degree"@en .
+<http://purl.org/ontology/bibo/degrees/phd> <http://www.w3.org/2000/01/rdf-schema#label> "PhD degree"@en .
+<http://purl.org/ontology/bibo/degrees/phd> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/status/accepted
+<http://purl.org/ontology/bibo/status/accepted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/ontology/bibo/status/accepted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentStatus> .
+<http://purl.org/ontology/bibo/status/accepted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/bibo/status/accepted> <http://www.w3.org/2000/01/rdf-schema#comment> "Accepted for publication after peer reviewing."@en .
+<http://purl.org/ontology/bibo/status/accepted> <http://www.w3.org/2000/01/rdf-schema#label> "accepted"@en .
+<http://purl.org/ontology/bibo/status/accepted> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/status/draft
+<http://purl.org/ontology/bibo/status/draft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/ontology/bibo/status/draft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentStatus> .
+<http://purl.org/ontology/bibo/status/draft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/bibo/status/draft> <http://www.w3.org/2000/01/rdf-schema#comment> "Document drafted"@en .
+<http://purl.org/ontology/bibo/status/draft> <http://www.w3.org/2000/01/rdf-schema#label> "draft"@en .
+<http://purl.org/ontology/bibo/status/draft> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/status/forthcoming
+<http://purl.org/ontology/bibo/status/forthcoming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/ontology/bibo/status/forthcoming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentStatus> .
+<http://purl.org/ontology/bibo/status/forthcoming> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/bibo/status/forthcoming> <http://www.w3.org/2000/01/rdf-schema#comment> "Document to be published"@en .
+<http://purl.org/ontology/bibo/status/forthcoming> <http://www.w3.org/2000/01/rdf-schema#label> "forthcoming"@en .
+<http://purl.org/ontology/bibo/status/forthcoming> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/status/legal
+<http://purl.org/ontology/bibo/status/legal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/ontology/bibo/status/legal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentStatus> .
+<http://purl.org/ontology/bibo/status/legal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/bibo/status/legal> <http://www.w3.org/2000/01/rdf-schema#comment> "Legal document"@en .
+<http://purl.org/ontology/bibo/status/legal> <http://www.w3.org/2000/01/rdf-schema#label> "legal"@en .
+<http://purl.org/ontology/bibo/status/legal> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/status/nonPeerReviewed
+<http://purl.org/ontology/bibo/status/nonPeerReviewed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/ontology/bibo/status/nonPeerReviewed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentStatus> .
+<http://purl.org/ontology/bibo/status/nonPeerReviewed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/bibo/status/nonPeerReviewed> <http://www.w3.org/2000/01/rdf-schema#comment> "A document that is not peer reviewed"@en .
+<http://purl.org/ontology/bibo/status/nonPeerReviewed> <http://www.w3.org/2000/01/rdf-schema#label> "non peer reviewed"@en .
+<http://purl.org/ontology/bibo/status/nonPeerReviewed> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/status/peerReviewed
+<http://purl.org/ontology/bibo/status/peerReviewed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/ontology/bibo/status/peerReviewed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentStatus> .
+<http://purl.org/ontology/bibo/status/peerReviewed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/bibo/status/peerReviewed> <http://www.w3.org/2000/01/rdf-schema#comment> "The process by which articles are chosen to be included in a refereed journal. An editorial board consisting of experts in the same field as the author review the article and decide if it is authoritative enough for publication."@en .
+<http://purl.org/ontology/bibo/status/peerReviewed> <http://www.w3.org/2000/01/rdf-schema#label> "peer reviewed"@en .
+<http://purl.org/ontology/bibo/status/peerReviewed> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/status/published
+<http://purl.org/ontology/bibo/status/published> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/ontology/bibo/status/published> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentStatus> .
+<http://purl.org/ontology/bibo/status/published> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/bibo/status/published> <http://www.w3.org/2000/01/rdf-schema#comment> "Published document"@en .
+<http://purl.org/ontology/bibo/status/published> <http://www.w3.org/2000/01/rdf-schema#label> "published"@en .
+<http://purl.org/ontology/bibo/status/published> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/status/rejected
+<http://purl.org/ontology/bibo/status/rejected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/ontology/bibo/status/rejected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentStatus> .
+<http://purl.org/ontology/bibo/status/rejected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/bibo/status/rejected> <http://www.w3.org/2000/01/rdf-schema#comment> "Rejected for publication after peer reviewing."@en .
+<http://purl.org/ontology/bibo/status/rejected> <http://www.w3.org/2000/01/rdf-schema#label> "rejected"@en .
+<http://purl.org/ontology/bibo/status/rejected> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# http://purl.org/ontology/bibo/status/unpublished
+<http://purl.org/ontology/bibo/status/unpublished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://purl.org/ontology/bibo/status/unpublished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/ontology/bibo/DocumentStatus> .
+<http://purl.org/ontology/bibo/status/unpublished> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/ontology/bibo/status/unpublished> <http://www.w3.org/2000/01/rdf-schema#comment> "Unpublished document"@en .
+<http://purl.org/ontology/bibo/status/unpublished> <http://www.w3.org/2000/01/rdf-schema#label> "unpublished"@en .
+<http://purl.org/ontology/bibo/status/unpublished> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<http://purl.org/dc/terms/description> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to describe a bibliographic resource."@en .
+# 
+<http://purl.org/dc/terms/title> <http://www.w3.org/2004/02/skos/core#scopeNote> "Used to describe the title of a bibliographic resource"@en .
+# 
+# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
