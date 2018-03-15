@@ -2336,7 +2336,15 @@ Even if this link is not done in neither the FOAF nor the DCTERMS ontologies thi
         <rdfs:comment xml:lang="en">The academic degree of a Thesis</rdfs:comment>
     </owl:Class>
     
+    <!-- http://purl.org/ontology/bibo/Treaty -->
 
+    <owl:Class rdf:about="&bibo;Treaty">
+        <rdfs:label xml:lang="en">Treaty</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&bibo;Agreement"/>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI">http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="en">A multilateral treaty.</rdfs:comment>
+        <ns:term_status>unstable</ns:term_status>
+    </owl:Class>
 
     <!-- http://purl.org/ontology/bibo/Webpage -->
 
