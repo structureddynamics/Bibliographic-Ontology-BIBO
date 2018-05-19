@@ -1543,6 +1543,16 @@ Even if this link is not done in neither the FOAF nor the DCTERMS ontologies thi
     
 
 
+    <!-- http://purl.org/ontology/bibo/Appendix -->
+
+    <owl:Class rdf:about="&bibo;Appendix">
+        <rdfs:label xml:lang="en">Appendix</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&bibo;BookSection"/>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI">http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
+        <ns:term_status>unstable</ns:term_status>
+        <rdfs:comment xml:lang="en">A supplementary section, often found at the end of, e.g., a book, article, or report.</rdfs:comment>
+    </owl:Class>
+
     <!-- http://purl.org/ontology/bibo/Article -->
 
     <owl:Class rdf:about="&bibo;Article">
