@@ -1,7 +1,7 @@
+== BIBO at DCMI ==
+
+[https://www.dublincore.org/specifications/bibo/ The BIBO ontology's maintenance and development has been transfered to the DCMI]. All further development or improvement should be discussed with them.
+
 == Introduction ==
 
 The Bibliographic Ontology describe bibliographic things on the semantic Web in RDF. This ontology can be used as a citation ontology, as a document classification ontology, or simply as a way to describe any kind of document in RDF. It has been inspired by many existing document description metadata formats, and can be used as a common ground for converting other bibliographic data sources.
-
-== Documentation ==
-
-All the documentation related to umbel is available on [http://bibliographic-ontology.org BIBO's main website].
