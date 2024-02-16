@@ -323,6 +323,27 @@ sources.</terms:description>
     
 
 
+    <!-- http://purl.org/ontology/bibo/author -->
+
+    <owl:ObjectProperty rdf:about="&bibo;author">
+        <rdfs:label>author</rdfs:label>
+        <rdfs:isDefinedBy rdf:datatype="&xsd;anyURI">http://purl.org/ontology/bibo/</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="en">A creator or originator of work, such as a book, article, or other publication. Authors are responsible for the intellectual content and conception of the work, often providing the primary ideas, research, and writing.</rdfs:comment>
+        <ns:term_status>testing</ns:term_status>
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+        <rdfs:range rdf:resource="&foaf;Agent"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&bibo;Collection"/>
+                    <rdf:Description rdf:about="&bibo;Document"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+
+
+
     <!-- http://purl.org/ontology/bibo/authorList -->
 
     <owl:ObjectProperty rdf:about="&bibo;authorList">
